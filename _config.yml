@@ -27,7 +27,7 @@ author:
   bio              : "Welcome to my personal academic page"
   location         : "5th Zhongguancun South Street, Haidian District, Beijing"
   employer         : "Beijing Institute of Technology"
-  uri              : #https://github.com/s5zhao/
+  #uri              : #https://github.com/s5zhao/
   email            : "zhaoshengwu@bit.edu.cn" 
 
   # Academic websites
