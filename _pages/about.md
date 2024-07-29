@@ -20,7 +20,7 @@ Shengwu Zhao (name in Chinese: 赵生武)
 # Short bio
 I am a fourth-year PhD student from [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/).
 I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm) of Navigation, Guidance and Control Lab from School of Automation, Beijing Institute of Technology.
-My research interest includes strapdown inertial navigation system, integrated navigation, information fusion，terrain matching navigation and gravity matching navigation. 
+My research interest includes strapdown inertial navigation system, integrated navigation, information fusion, terrain matching navigation and gravity matching navigation. 
 You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updated on November 2rd, 2023).
 
 # Education 
@@ -34,15 +34,15 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 # Publications
 **Journal papers:**
 
-[1]. **Zhao S**, Shi L, Zhang W, Shi L. Global dynamic path‐planning algorithm in gravity‐aided inertial navigation system[J]. *IET Signal Processing*, 2021, 15(8): 510-520. (**SCI Q3, IF: 1.7**) [[pdf]](../files/sil2.12056.pdf)
+[1]. **Zhao S**, Shi L, Zhang W, Shi L. Global dynamic path‐planning algorithm in gravity‐aided inertial navigation system[J]. ***IET Signal Processing***, 2021, 15(8): 510-520. (**SCI Q3, IF: 1.7**) [[pdf]](../files/sil2.12056.pdf)
 
-[2]. **Zhao S**, Xiao X, Wang Y, Deng Z. An improved particle filter based on gravity measurement feature in gravity-aided inertial navigation system[J]. *IEEE Sensors Journal*, 2022, 23(2): 1423-1435. (**SCI Q1, IF: 4.3**) [[pdf]](../files/An_Improved_Particle_Filter_Based_on_Gravity_Measurement_Feature_in_Gravity-Aided_Inertial_Navigation_System.pdf)
+[2]. **Zhao S**, Xiao X, Wang Y, Deng Z. An improved particle filter based on gravity measurement feature in gravity-aided inertial navigation system[J]. ***IEEE Sensors Journal***, 2022, 23(2): 1423-1435. (**SCI Q1, IF: 4.3**) [[pdf]](../files/An_Improved_Particle_Filter_Based_on_Gravity_Measurement_Feature_in_Gravity-Aided_Inertial_Navigation_System.pdf)
 
-[3]. **Zhao S**, Xiao X, Deng Z, Shi L. Gravity matching algorithm based on correlation filter[J]. *IEEE Sensors Journal*, 2022, 23(3): 2618-2629. (**SCI Q1, IF: 4.3**) [[pdf]](../files/Gravity_Matching_Algorithm_Based_on_Correlation_Filter.pdf) 
+[3]. **Zhao S**, Xiao X, Deng Z, Shi L. Gravity matching algorithm based on correlation filter[J]. ***IEEE Sensors Journal***, 2022, 23(3): 2618-2629. (**SCI Q1, IF: 4.3**) [[pdf]](../files/Gravity_Matching_Algorithm_Based_on_Correlation_Filter.pdf) 
 
-[4] **Zhao S**, Xiao X, Pang X, Wang Y, Deng Z. Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area[J]. *IEEE Transactions on Instrumentation and Measurement*, 2024, 73, 9504413. (**SCI Q1, IF: 5.6**) [[pdf]](../files/Gravity_Matching_Algorithm_Based_on_Backtracking_for_Small_Range_Adaptation_Area.pdf)
+[4] **Zhao S**, Xiao X, Pang X, Wang Y, Deng Z. Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area[J]. ***IEEE Transactions on Instrumentation and Measurement***, 2024, 73, 9504413. (**SCI Q1, IF: 5.6**) [[pdf]](../files/Gravity_Matching_Algorithm_Based_on_Backtracking_for_Small_Range_Adaptation_Area.pdf)
 
-[5] **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X. Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence[J]. *IEEE/ASME Transactions on Mechatronics*, 2024. (**SCI Q1, IF: 6.1**)
+[5] **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X. Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence[J]. ***IEEE/ASME Transactions on Mechatronics***, 2024. (**SCI Q1, IF: 6.1**)
 
 **Conference papers:**
 
@@ -58,3 +58,13 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 
 [6]. Wang Q, Gong X, Bai X, Deng Z, **Zhao S**. The method for selecting adaptation zones of terrain matching based on Arctic seabed terrain features[C]//2024 International Conference on Guidance, Navigation and Control (ICGNC), Springer, 2024. (**EI**)
 
+
+# Services
+**Journal reviewer:**
+
++ IEEE Sensors Journal
+
+**Conference reviewer:**
+
++ 4th ICAUS 2024
++ 3th ICAUS 2023
