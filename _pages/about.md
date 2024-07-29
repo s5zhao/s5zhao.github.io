@@ -24,13 +24,12 @@ My research interest includes strapdown inertial navigation system, integrated n
 You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updated on November 2rd, 2023).
 
 # Education 
-+ 2016.8 - 2020.9 B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, , supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
++ <font face='' color=blue size=3>2016.8 - 2020.9</font> B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
 
-+ 2020.9 - now Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
++ <font face='' color=blue size=3>2020.9 - now</font> Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
 
 # News
-- <font face='' color=red size=3>[2024.7.26]</font>
-One paper is accepted by TMECH.
+- <font face='' color=red size=3>[2024.7.26]</font> One paper is accepted by TMECH.
 
 # Publications
 **Journal papers:**
