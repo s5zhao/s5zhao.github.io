@@ -13,6 +13,5 @@ I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/
 
 You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updated on November 2rd, 2023).
 
-[Email:zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)
-[Github:s5zhao](https://github.com/s5zhao/)
+You can contact with me with this email: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)
 
