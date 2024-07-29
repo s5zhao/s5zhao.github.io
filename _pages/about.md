@@ -45,7 +45,7 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 
 [5] **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X. Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence[J]. ***IEEE/ASME Transactions on Mechatronics***, 2024. (**SCI Q1, IF: 6.1**)
 
-**<font face='' color=blue size=3>Conference papers:</font>**
+**<font face='Arial' color=blue size=3>Conference papers:</font>**
 
 [1] Wang Y, Deng Z, Zhang W, **Zhao S**. An improved ICCP gravity matching algorithm based on Mahalanobis distance[C]//2021 40th Chinese Control Conference (CCC). IEEE, 2021: 3503-3508. (**EI**) [[pdf]](../files/An_Improved_ICCP_Gravity_Matching_Algorithm_Based_on_Mahalanobis_Distance.pdf)
 
