@@ -11,7 +11,8 @@ I'm a third year undergraduate student from [School of Automation](https://ac.bi
 
 I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm) of Navigation, Guidance and Control Lab from [School of Automation].
 
-You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf).
+You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updated on November 2rd, 2023).
 
-[Email](zhaoshengwu@bit.edu.cn) / [Github](https://github.com/s5zhao/)
+[Email:zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)
+[Github:s5zhao](https://github.com/s5zhao/)
 
