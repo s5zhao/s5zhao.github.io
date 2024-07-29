@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "<font face='blue' color=blue size=5>Shengwu Zhao</font>"
+title: "Shengwu Zhao"
 author_profile: true
 redirect_from: 
   - /about/
