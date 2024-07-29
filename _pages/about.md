@@ -11,9 +11,9 @@ Shengwu Zhao (name in Chinese: 赵生武)
 
 [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/)
 
-Location: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.
+**Location**: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.
 
-Email: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)
+**Email**: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)
 
 # Short bio
 I am a fourth-year PhD student from [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/). 
