@@ -32,7 +32,7 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 # Publications
 **<font face='Arial' color=blue size=3>Journal papers:</font>**
 
-[1] **Zhao S**, Shi L, Zhang W, Shi L. Global dynamic path‐planning algorithm in gravity‐aided inertial navigation system[J]. ***IET Signal Processing***, 2021, 15(8): 510-520. (**SCI Q3, IF: 1.7**) [[pdf]](../files/sil2.12056.pdf)
+[1] **Zhao S**, Shi L, Zhang W, Deng Z. Global dynamic path‐planning algorithm in gravity‐aided inertial navigation system[J]. ***IET Signal Processing***, 2021, 15(8): 510-520. (**SCI Q3, IF: 1.7**) [[pdf]](../files/sil2.12056.pdf)
 
 [2] **Zhao S**, Xiao X, Wang Y, Deng Z. An improved particle filter based on gravity measurement feature in gravity-aided inertial navigation system[J]. ***IEEE Sensors Journal***, 2022, 23(2): 1423-1435. (**SCI Q1, IF: 4.3**) [[pdf]](../files/An_Improved_Particle_Filter_Based_on_Gravity_Measurement_Feature_in_Gravity-Aided_Inertial_Navigation_System.pdf)
 
