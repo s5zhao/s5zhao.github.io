@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
-Shengwu Zhao 
-
 [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/)
 
 **Location**: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.
