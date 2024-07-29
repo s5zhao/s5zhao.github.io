@@ -15,7 +15,7 @@ Shengwu Zhao (name in Chinese: 赵生武)
 
 **Email**: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)
 
-**ORCID**: [Shengwu Zhao](https://orcid.org/0000-0003-3459-3062)
+**ORCID**: [0000-0003-3459-3062](https://orcid.org/0000-0003-3459-3062)
 
 # Short bio
 I am a fourth-year PhD student from [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/).
