@@ -32,7 +32,7 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 - <font face='' color=red size=3>[2024.7.26]</font> One paper is accepted by TMECH.
 
 # Publications
-**Journal papers:**
+<font face='' color=blue size=3>**Journal papers:**</font>
 
 [1] **Zhao S**, Shi L, Zhang W, Shi L. Global dynamic path‐planning algorithm in gravity‐aided inertial navigation system[J]. ***IET Signal Processing***, 2021, 15(8): 510-520. (**SCI Q3, IF: 1.7**) [[pdf]](../files/sil2.12056.pdf)
 
@@ -44,7 +44,7 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 
 [5] **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X. Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence[J]. ***IEEE/ASME Transactions on Mechatronics***, 2024. (**SCI Q1, IF: 6.1**)
 
-**Conference papers:**
+<font face='' color=blue size=3>**Conference papers:**</font>
 
 [1] Wang Y, Deng Z, Zhang W, **Zhao S**. An improved ICCP gravity matching algorithm based on Mahalanobis distance[C]//2021 40th Chinese Control Conference (CCC). IEEE, 2021: 3503-3508. (**EI**) [[pdf]](../files/An_Improved_ICCP_Gravity_Matching_Algorithm_Based_on_Mahalanobis_Distance.pdf)
 
@@ -58,6 +58,22 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 
 [6] Wang Q, Gong X, Bai X, Deng Z, **Zhao S**. The method for selecting adaptation zones of terrain matching based on Arctic seabed terrain features[C]//2024 International Conference on Guidance, Navigation and Control (ICGNC), Springer, 2024. (**EI**)
 
+# Awards: 
++ <font face='' color=blue size=3>2022.8</font>  Technical Invention Award of Chinese Society of Inertial Technology (**First Prize**)
+
++ <font face='' color=blue size=3>2022.1</font> APMCM Mathematical Modeling (**First Prize, TOP 4**)
+
++ <font face='' color=blue size=3>2021.12</font> Huawei Cup Mathematical Modeling (Third Prize)
+
++ <font face='' color=blue size=3>2021.6</font> MathorCup Mathematical Modeling (Third Prize)
+
++ <font face='' color=blue size=3>2020.6</font> Outstanding graduate of School of Xuteli 
+
++ <font face='' color=blue size=3>2020.6</font> The Artificial Intelligence Challenge of Robomaster, perception (Excellence Award)
+
++ <font face='' color=blue size=3>2020.6</font> NXP National College Student Smart Car Competition (Second Prize in North China)
+
++ <font face='' color=blue size=3>2019.1</font> China Undergraduate Mathematical Contest in Modeling (Second Prize in Beijing)
 
 # Services
 **Journal reviewer:**
