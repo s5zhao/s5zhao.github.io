@@ -27,7 +27,8 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 + <font face='' color=blue size=3>2020.9 - now</font> Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
 
 # News
-- <font face='' color=red size=3>[2024.7.26]</font> One paper is accepted by TMECH.
+- <font face='' color=red size=3>[2024.7.30]</font> One paper is in Minor Revision by IEEE Sensors Journal.
+- <font face='' color=red size=3>[2024.7.26]</font> One paper is accepted by IEEE TMECH.
 
 # Publications
 **<font face='Arial' color=blue size=3>Journal papers:</font>**
