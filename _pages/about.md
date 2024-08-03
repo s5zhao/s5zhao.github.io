@@ -15,14 +15,16 @@ redirect_from:
 
 **ORCID**: [0000-0003-3459-3062](https://orcid.org/0000-0003-3459-3062)
 
-# Short bio
+[[Bio]](#bio)[[Eduation]](#edu)
+
+# Short bio{#bio}
 I am a fourth-year PhD student from [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/).
 I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm) of Navigation, Guidance and Control Lab from School of Automation, Beijing Institute of Technology.
 My research interest includes strapdown inertial navigation system, integrated navigation, information fusion, terrain matching navigation and gravity matching navigation. 
 You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updated on November 2rd, 2023).
 
-# Education 
-+ <font face='' color=blue size=3>2016.8 - 2020.9</font> B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
+# Education{#edu}
+e+ <font face='' color=blue size=3>2016.8 - 2020.9</font> B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
 + <font face='' color=blue size=3>2020.9 - now</font> Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
 
 # News
