@@ -23,11 +23,10 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 
 # Education 
 + <font face='' color=blue size=3>2016.8 - 2020.9</font> B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
-
 + <font face='' color=blue size=3>2020.9 - now</font> Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
 
 # News
-- <font face='' color=red size=3>[2024.7.30]</font> One paper is in Minor Revision by IEEE Sensors Journal.
+- <font face='' color=red size=3>[2024.8.2]</font> One paper is accepted by IEEE Sensors Journal.
 - <font face='' color=red size=3>[2024.7.26]</font> One paper is accepted by IEEE TMECH.
 
 # Publications
@@ -58,21 +57,14 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 [6] Wang Q, Gong X, Bai X, Deng Z, **Zhao S**. The method for selecting adaptation zones of terrain matching based on Arctic seabed terrain features[C]//2024 International Conference on Guidance, Navigation and Control (ICGNC), Springer, 2024. (**EI**)
 
 # Awards: 
-+ <font face='' color=blue size=3>2022.8</font>  Technical Invention Award of Chinese Society of Inertial Technology (**First Prize**)
-
-+ <font face='' color=blue size=3>2022.1</font> APMCM Mathematical Modeling (**First Prize, TOP 4**)
-
-+ <font face='' color=blue size=3>2021.12</font> Huawei Cup Mathematical Modeling (Third Prize)
-
-+ <font face='' color=blue size=3>2021.6</font> MathorCup Mathematical Modeling (Third Prize)
-
-+ <font face='' color=blue size=3>2020.6</font> Outstanding graduate of School of Xuteli 
-
-+ <font face='' color=blue size=3>2020.6</font> The Artificial Intelligence Challenge of Robomaster, perception (Excellence Award)
-
-+ <font face='' color=blue size=3>2020.6</font> NXP National College Student Smart Car Competition (Second Prize in North China)
-
-+ <font face='' color=blue size=3>2019.1</font> China Undergraduate Mathematical Contest in Modeling (Second Prize in Beijing)
+- <font face='' color=blue size=3>2022.8</font>  Technical Invention Award of Chinese Society of Inertial Technology (**First Prize**)
+- <font face='' color=blue size=3>2022.1</font> APMCM Mathematical Modeling (**First Prize, TOP 4**)
+- <font face='' color=blue size=3>2021.12</font> Huawei Cup Mathematical Modeling (Third Prize)
+- <font face='' color=blue size=3>2021.6</font> MathorCup Mathematical Modeling (Third Prize)
+- <font face='' color=blue size=3>2020.6</font> Outstanding graduate of School of Xuteli 
+- <font face='' color=blue size=3>2020.6</font> The Artificial Intelligence Challenge of Robomaster, perception (Excellence Award)
+- <font face='' color=blue size=3>2020.6</font> NXP National College Student Smart Car Competition (Second Prize in North China)
+- <font face='' color=blue size=3>2019.1</font> China Undergraduate Mathematical Contest in Modeling (Second Prize in Beijing)
 
 # Services
 **Journal reviewer:**
