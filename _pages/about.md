@@ -7,12 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-[School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/)
-
-**Location**: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.
-
-**Email**: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)
-
+[School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/)   
+**Location**: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.   
+**Email**: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)  
 **ORCID**: [0000-0003-3459-3062](https://orcid.org/0000-0003-3459-3062)
 
 
@@ -59,13 +56,11 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 
 [6] Wang Q, Gong X, Bai X, Deng Z, **Zhao S**. The method for selecting adaptation zones of terrain matching based on Arctic seabed terrain features[C]//2024 International Conference on Guidance, Navigation and Control (ICGNC), Springer, 2024. (**EI**)
 
-# Patents:
+# Patents
 CN202110545814.3 (3rd), CN202311811811.5 (2nd), CN202311694509.6 (3rd), CN202110545816.2 (3rd), CN202110838109.2 (3rd), CN202211221726.9 (4th), CN202210856742.9 (2rd), CN201911385476.0 (4th).
 
 
-
-
-# Awards: 
+# Awards
 - <font face='' color=blue size=3>2022.8</font>  Technical Invention Award of Chinese Society of Inertial Technology (**First Prize**)
 - <font face='' color=blue size=3>2022.1</font> APMCM Mathematical Modeling (**First Prize, TOP 4**)
 - <font face='' color=blue size=3>2021.12</font> Huawei Cup Mathematical Modeling (Third Prize)
