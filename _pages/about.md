@@ -40,7 +40,9 @@ You can find my CV here: [My resume](../assets/Shengwu Zhao's resume.pdf) (Updat
 
 [4] **Zhao S**, Xiao X, Pang X, Wang Y, Deng Z. Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area[J]. ***IEEE Transactions on Instrumentation and Measurement***, 2024, 73, 9504413. (**SCI Q1, IF: 5.6**) [[pdf]](../files/Gravity_Matching_Algorithm_Based_on_Backtracking_for_Small_Range_Adaptation_Area.pdf) [[ref]](https://ieeexplore.ieee.org/document/10381855)
 
-[5] **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X. Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence[J]. ***IEEE/ASME Transactions on Mechatronics***, 2024. (**SCI Q1, IF: 6.1**) 
+[5] **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X. Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence[J]. ***IEEE/ASME Transactions on Mechatronics***, 2024. (**SCI Q1, IF: 6.1**)
+
+[6] Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**. A Gravity-Aided Navigation Matching Algorithm Based on Triangulation[J]. ***IEEE Sensors Journal***, 2024. (**SCI Q1, IF: 4.3**)
 
 **<font face='Arial' color=blue size=3>Conference papers:</font>**
 
