@@ -67,7 +67,7 @@ CN202110545814.3 (3rd), CN202311811811.5 (2nd), CN202311694509.6 (3rd), CN202110
 - <font face='' color=blue size=3>2021.6</font> MathorCup Mathematical Modeling (Third Prize)
 - <font face='' color=blue size=3>2020.6</font> Outstanding graduate of School of Xuteli 
 - <font face='' color=blue size=3>2020.6</font> The Artificial Intelligence Challenge of Robomaster, perception (Excellence Award)
-- <font face='' color=blue size=3>2020.6</font> NXP National College Student Smart Car Competition (Second Prize in North China)
+- <font face='' color=blue size=3>2020.7</font> NXP National College Student Smart Car Competition (Second Prize in North China)
 - <font face='' color=blue size=3>2019.1</font> China Undergraduate Mathematical Contest in Modeling (Second Prize in Beijing)
 
 # Services
