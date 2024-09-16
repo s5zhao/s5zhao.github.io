@@ -9,8 +9,9 @@ redirect_from:
 
 [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/)   
 **Location**: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.   
-**Email**: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn)  
-**ORCID**: [0000-0003-3459-3062](https://orcid.org/0000-0003-3459-3062)
+**Email**: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn), [bit_zsw_ah@163.com](bit_zsw_ah@163.com)  
+**ORCID**: [0000-0003-3459-3062](https://orcid.org/0000-0003-3459-3062)  
+**Google Scholar**: [Shengwu Zhao](https://scholar.google.com.hk/citations?hl=en&user=amGtFUIAAAAJ)
 
 
 # Short bio
@@ -24,7 +25,6 @@ You can find my CV here: [My resume](../assets/resume.pdf) (Updated on Aug 3rd, 
 + <font face='' color=blue size=3>2020.9 - now</font> Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
 
 # News
-- <font face='' color=red size=3>[2024.8.2]</font> One paper is accepted by IEEE Sensors Journal.
 - <font face='' color=red size=3>[2024.7.26]</font> One paper is accepted by IEEE TMECH.
 
 # Publications
@@ -38,7 +38,7 @@ You can find my CV here: [My resume](../assets/resume.pdf) (Updated on Aug 3rd, 
 
 [4] **Zhao S**, Xiao X, Pang X, Wang Y, Deng Z. Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area[J]. ***IEEE Transactions on Instrumentation and Measurement***, 2024, 73, 9504413. (**SCI Q1, IF: 5.6**) [[pdf]](../files/Gravity_Matching_Algorithm_Based_on_Backtracking_for_Small_Range_Adaptation_Area.pdf) [[ref]](https://ieeexplore.ieee.org/document/10381855)
 
-[5] **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X. Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence[J]. ***IEEE/ASME Transactions on Mechatronics***, 2024. (**SCI Q1, IF: 6.1**)
+[5] **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X. Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence[J]. ***IEEE/ASME Transactions on Mechatronics***, 2024. (**SCI Q1, IF: 6.1**) [[pdf]](../files/2024-8-Terrain_Matching_Algorithm_Based_on_Trajectory_Reconstruction_and_Correlation_Analysis_of_Sliding_Measurement_Sequence.pdf) [[ref]](https://ieeexplore.ieee.org/document/10632789)
 
 [6] Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**. A Gravity-Aided Navigation Matching Algorithm Based on Triangulation[J]. ***IEEE Sensors Journal***, 2024. (**SCI Q1, IF: 4.3**)
 
