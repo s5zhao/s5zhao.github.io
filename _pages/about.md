@@ -106,8 +106,9 @@ My research interest includes strapdown inertial navigation system, integrated n
 </div>
 </div>
 
-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2024</div> 
-[A Gravity-Aided Navigation Matching Algorithm Based on Triangulation](https://ieeexplore.ieee.org/document/10666986), Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**.
+- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2024</div>;
+
+ [A Gravity-Aided Navigation Matching Algorithm Based on Triangulation](https://ieeexplore.ieee.org/document/10666986), Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**.
 </div>
 </div>
 
