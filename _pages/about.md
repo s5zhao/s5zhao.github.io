@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Now I am a fifth-year PhD student in [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/) (北京理工大学自动化学院). I graduated from [School of XuTeli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology (北京理工大学徐特立学院) with a bachelor’s degree.
+Now I am a fifth-year PhD student in [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/) (北京理工大学自动化学院). I graduated from [School of XuTeli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology (北京理工大学徐特立学院) with a bachelor’s degree in 2020.
 
 I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm) of Navigation, Guidance and Control Lab from School of Automation, Beijing Institute of Technology.
 
