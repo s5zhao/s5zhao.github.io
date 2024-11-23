@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a fifth-year PhD student from [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/).
+Now I am a fifth-year PhD student in [School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/) (北京理工大学自动化学院). I graduated from [School of XuTeli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology (北京理工大学徐特立学院) with a bachelor’s degree.
+
 I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm) of Navigation, Guidance and Control Lab from School of Automation, Beijing Institute of Technology.
 
 My research interest includes strapdown inertial navigation system, integrated navigation, information fusion, terrain matching navigation and gravity matching navigation. 
@@ -26,6 +27,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 
 # 🔥 News
+- *2024.10*:Won the National Scholarship for Ph.D students (ranked 1st in School of Automation)
 - *2024.08*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH.
 
 
