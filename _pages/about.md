@@ -31,6 +31,8 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 # 📝 Publications 
 
+🎙 **Journal Paper**
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME TMECH 2024</div><img src='images/IEEE-TMECH1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -61,7 +63,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Sensors Journal 2023</div><img src='images/IEEE-JSEN1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2023</div><img src='images/IEEE-JSEN1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System](https://ieeexplore.ieee.org/document/9979757)
@@ -70,13 +72,13 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 ***IEEE Sensors Journal***
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:WF5omc3nYNoC'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:eQOLeE2rZwMC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:eQOLeE2rZwMC'></span></strong>
 - The topological relationship between contour line and trajectory is studied, and a new method of position acquisition is found.
 - A new concept called direction measurement using the heading angle of INS is proposed.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Sensors Journal 2023</div><img src='images/IEEE-JSEN2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2023</div><img src='images/IEEE-JSEN2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Gravity Matching Algorithm Based on Correlation Filter](https://ieeexplore.ieee.org/document/9997486)
@@ -85,14 +87,30 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 ***IEEE Sensors Journal***
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:WF5omc3nYNoC'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:W7OEmFMy1HYC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:W7OEmFMy1HYC'></span></strong>
 - Correlation filter is used as the principle of correlation between measurements and maps.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IET SP 2021</div><img src='images/IET-SP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[Global Dynamic Path‐Planning Algorithm in Gravity‐Aided Inertial Navigation System](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/sil2.12056)
 
+**Zhao S**, Shi L, Zhang W, Deng Z.
 
+***IET Signal Processing***
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:YsMSGLbcyi4C) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:YsMSGLbcyi4C'></span></strong>
+- A* and DWA are used to deal with path planning in gravity matching navigation.
+</div>
+</div>
+
+- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2024</div> [A Gravity-Aided Navigation Matching Algorithm Based on Triangulation](https://ieeexplore.ieee.org/document/10666986), Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**.
+</div>
+</div>
+
+🎙 **Conference Paper**
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
