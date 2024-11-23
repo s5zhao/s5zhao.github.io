@@ -23,8 +23,6 @@ I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/
 
 My research interest includes strapdown inertial navigation system, integrated navigation, information fusion, terrain matching navigation and gravity matching navigation.
 
-[School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/)
-
 **Location**: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.
 
 **Email**: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn), [bit_zsw_ah@163.com](bit_zsw_ah@163.com)
