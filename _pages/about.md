@@ -26,12 +26,12 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH.
+- *2024.08*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH.
 
 
 # 📝 Publications 
 
-# 🎙 Journal or transaction papers
+🎙 **<font face='Arial' color=blue size=3>Journal or transaction papers:</font>**
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME TMECH 2024</div><img src='images/IEEE-TMECH1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -121,7 +121,7 @@ Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**.
 </div>
 
 
-# 🎙 Conference papers
+🎙 **<font face='Arial' color=blue size=3>Conference papers:</font>**
 
 - 基于回溯导航策略的重力匹配方法. **Zhao S**, Pang X, Deng Z, *2022中国惯性技术研讨会*, 2022, 大连.
 
