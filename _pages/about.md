@@ -21,7 +21,7 @@ Now I am a fifth-year PhD student in [School of Automation](https://ac.bit.edu.c
 
 I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm) of Navigation, Guidance and Control Lab from School of Automation, Beijing Institute of Technology.
 
-My research interest includes strapdown inertial navigation system, integrated navigation, information fusion, terrain matching navigation and gravity matching navigation.
+My research interest includes *strapdown inertial navigation system*, *integrated navigation*, *terrain matching navigation* and *gravity matching navigation*.
 
 **Location**: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.
 
@@ -166,3 +166,5 @@ CN202110545814.3 (3rd), CN202311811811.5 (2nd), CN202311694509.6 (3rd), CN202110
 # 📖 Educations
 - *2016.08 - 2020.09*, B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
 - *2020.09 - now*, Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
+
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=54e0ojatafc&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
