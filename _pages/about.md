@@ -27,7 +27,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 
 # 🔥 News
-- *2024.10*:Won the National Scholarship for Ph.D students (ranked 1st in School of Automation)
+- *2024.10*: &nbsp;🎉🎉 Won the National Scholarship for Ph.D students (ranked 1st in School of Automation)
 - *2024.08*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH.
 
 
