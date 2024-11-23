@@ -31,7 +31,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 # 📝 Publications 
 
-🎙 **Journal Paper**
+# 🎙 Journal or transaction papers
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME TMECH 2024</div><img src='images/IEEE-TMECH1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -106,10 +106,37 @@ My research interest includes strapdown inertial navigation system, integrated n
 </div>
 </div>
 
-- [A Gravity-Aided Navigation Matching Algorithm Based on Triangulation](https://ieeexplore.ieee.org/document/10666986), Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**, ***IEEE Sensors Journal***, 2024.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2024</div><img src='images/IEEE-JSEN3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Gravity-Aided Navigation Matching Algorithm Based on Triangulation](https://ieeexplore.ieee.org/document/10666986)
+
+Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**.
+
+***IEEE Sensors Journal***
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:_FxGoFyzp5QC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:_FxGoFyzp5QC'></span></strong>
+- A new gravity matching algorithm based on the computational geometry “plane-line-point” model is proposed which can reduce the error of traditional filtering algorithms in processing nonlinear features.
+</div>
+</div>
 
 
-🎙 **Conference Paper**
+# 🎙 Conference papers
+
+- 基于回溯导航策略的重力匹配方法. **Zhao S**, Pang X, Deng Z, *2022中国惯性技术研讨会*, 2022, 大连.
+
+- The analysis of influencing factors on geophysical field matching. **Zhao S**, Zhang W, Wang Y, Deng Z, 2024 International Conference on Guidance, Navigation and Control (ICGNC), 2024. (**EI**)
+
+- [An improved ICCP gravity matching algorithm based on Mahalanobis distance](https://ieeexplore.ieee.org/document/9550017). Wang Y, Deng Z, Zhang W, **Zhao S**, 2021 40th Chinese Control Conference (CCC), 2021. (**EI**)
+
+- Research on Polar Navigation Problem of North-Seeking Strapdown Inertial Navigation System. Chen X, Jiao Z, **Zhao S**, Deng Z, 2024 International Conference on Guidance, Navigation and Control (ICGNC), 2024. (**EI**)
+
+- Bathymetric SLAM Approach Using Multibeam Sonar Toward Polar Region. Jiao Z, Chen X, **Zhao S**, Deng Z, 2024 International Conference on Guidance, Navigation and Control (ICGNC), 2024. (**EI**)
+
+- The method for selecting adaptation zones of terrain matching based on Arctic seabed terrain features. Wang Q, Gong X, Bai X, Deng Z, **Zhao S**. 2024 International Conference on Guidance, Navigation and Control (ICGNC), 2024. (**EI**)
+
+
+
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
