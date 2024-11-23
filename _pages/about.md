@@ -136,8 +136,6 @@ Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**.
 - The method for selecting adaptation zones of terrain matching based on Arctic seabed terrain features. Wang Q, Gong X, Bai X, Deng Z, **Zhao S**. 2024 International Conference on Guidance, Navigation and Control (ICGNC), 2024. (**EI**)
 
 
-
-
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
