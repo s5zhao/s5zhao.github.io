@@ -78,7 +78,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2023</div><img src='images/IEEE-JSEN2.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2023</div><img src='images/IEEE-JSEN2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Gravity Matching Algorithm Based on Correlation Filter](https://ieeexplore.ieee.org/document/9997486)
@@ -92,7 +92,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IET SP 2021</div><img src='images/IET-SP.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IET SP 2021</div><img src='images/IET-SP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Global Dynamic Path‐Planning Algorithm in Gravity‐Aided Inertial Navigation System](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/sil2.12056)
@@ -106,8 +106,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 </div>
 </div>
 
-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JSEN 2024; 
-[A Gravity-Aided Navigation Matching Algorithm Based on Triangulation](https://ieeexplore.ieee.org/document/10666986), Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**.</div></div>
+- [A Gravity-Aided Navigation Matching Algorithm Based on Triangulation](https://ieeexplore.ieee.org/document/10666986), Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**, ***IEEE Sensors Journal***, 2024.
 
 
 🎙 **Conference Paper**
