@@ -31,7 +31,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TMECH</div><img src='images/IEEE-TMECH1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME Transactions on Mechatronics 2024</div><img src='images/IEEE-TMECH1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence](https://ieeexplore.ieee.org/document/10632789)
@@ -39,7 +39,7 @@ My research interest includes strapdown inertial navigation system, integrated n
 **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X.
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:ufrVoPGSRksC'></span></strong>
-- This article introduces the sequence correlation analysis into the single point matching algorithm, and uses the sliding measurement sequence to estimate recursively. First, a position sequence estimation method based on trajectory reconstruction is proposed, which calculates the new position sequence by the relationship between INS displacement and heading angle, instead of the direct translation of INS trajectory method in traditional algorithms. After that, the likelihood of the candidate point is calculated by the correlation analysis method using the corresponding sliding measurement sequence at the current time, and a more accurate position estimation is obtained after the measurement update. 
+- This article introduces the sequence correlation analysis into the single point matching algorithm, and uses the sliding measurement sequence to estimate recursively. 
 </div>
 </div>
 
