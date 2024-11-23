@@ -22,31 +22,28 @@ I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/
 
 My research interest includes strapdown inertial navigation system, integrated navigation, information fusion, terrain matching navigation and gravity matching navigation. 
 
-You can find my CV here: [My resume](E:\Page\s5zhao.github.io\docs\resume.pdf) (Updated on Aug 3rd, 2024).
-
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.03*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.02*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH.
+
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TMECH</div><img src='images/IEEE-TMECH1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence](https://ieeexplore.ieee.org/document/10632789)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Zhao S**, Deng Z, Wang Q, Zhang W, Gong X.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:ufrVoPGSRksC'></span></strong>
+- Single-point matching algorithm (point mass filter or particle filter) only uses the current time measurement to calculate the likelihood, which is prone to pseudopeak and false peak. In order to solve the problem, this article introduces the sequence correlation analysis into the single point matching algorithm, and uses the sliding measurement sequence to estimate recursively. First, a position sequence estimation method based on trajectory reconstruction is proposed, which calculates the new position sequence by the relationship between INS displacement and heading angle, instead of the direct translation of INS trajectory method in traditional algorithms. After that, the likelihood of the candidate point is calculated by the correlation analysis method using the corresponding sliding measurement sequence at the current time, and a more accurate position estimation is obtained after the measurement update. Simulation and experiments show that the position sequence obtained by the proposed method based on trajectory reconstruction is more accurate than that obtained by the direct translation inertial navigation method. Compared with only using single time measurement information, the likelihood calculation method based on correlation analysis of sliding measurement sequence can significantly reduce pseudopeak and false peak, and the positioning accuracy of terrain matching is improved.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
