@@ -31,17 +31,66 @@ My research interest includes strapdown inertial navigation system, integrated n
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME Transactions on Mechatronics 2024</div><img src='images/IEEE-TMECH1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ASME TMECH 2024</div><img src='images/IEEE-TMECH1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence](https://ieeexplore.ieee.org/document/10632789)
 
 **Zhao S**, Deng Z, Wang Q, Zhang W, Gong X.
 
+***IEEE/ASME Transactions on Mechatronics***
+
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:ufrVoPGSRksC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:ufrVoPGSRksC'></span></strong>
-- This article introduces the sequence correlation analysis into the single point matching algorithm, and uses the sliding measurement sequence to estimate recursively. 
+- The error of inertial navigation position sequence is reduced.
+- The probability of false peak and pseudo-peak is reduced.
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIM 2024</div><img src='images/IEEE-TIM1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area](https://ieeexplore.ieee.org/document/10381855)
+
+**Zhao S**, Xiao X, Pang X, Wang Y, Deng Z.
+
+***IEEE Transactions on Instrumentation and Measurement***
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:WF5omc3nYNoC'></span></strong>
+- Avoid non-convergence of filter algorithm in small adaptation area. 
+- To some extent, the effect of matching algorithm on the initial position error can be reduced.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Sensors Journal 2023</div><img src='images/IEEE-JSEN1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System](https://ieeexplore.ieee.org/document/9979757)
+
+**Zhao S**, Xiao X, Wang Y, Deng Z.
+
+***IEEE Sensors Journal***
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:WF5omc3nYNoC'></span></strong>
+- The topological relationship between contour line and trajectory is studied, and a new method of position acquisition is found.
+- A new concept called direction measurement using the heading angle of INS is proposed.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Sensors Journal 2023</div><img src='images/IEEE-JSEN2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Gravity Matching Algorithm Based on Correlation Filter](https://ieeexplore.ieee.org/document/9997486)
+
+**Zhao S**, Xiao X, Deng Z, Shi L.
+
+***IEEE Sensors Journal***
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=amGtFUIAAAAJ&citation_for_view=amGtFUIAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='amGtFUIAAAAJ:WF5omc3nYNoC'></span></strong>
+- Correlation filter is used as the principle of correlation between measurements and maps.
+</div>
+</div>
+
+
 
 
 
