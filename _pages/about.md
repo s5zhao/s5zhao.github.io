@@ -135,18 +135,23 @@ Wang Y, Deng Z, Zhang P, Wang B, **Zhao S**.
 
 - The method for selecting adaptation zones of terrain matching based on Arctic seabed terrain features. Wang Q, Gong X, Bai X, Deng Z, **Zhao S**. 2024 International Conference on Guidance, Navigation and Control (ICGNC), 2024. (**EI**)
 
+# 📚 Patents
+
+CN202110545814.3 (3rd), CN202311811811.5 (2nd), CN202311694509.6 (3rd), CN202110545816.2 (3rd), CN202110838109.2 (3rd), CN202211221726.9 (4th), CN202210856742.9 (2nd), CN201911385476.0 (4th).
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+- *2024.11*,  National Scholarship for Ph.D students
+- *2022.8*,  Technical Invention Award of Chinese Society of Inertial Technology (**First Prize**)
+- *2022.1*, APMCM Mathematical Modeling (**First Prize, TOP 4**)
+- *2021.12*, Huawei Cup Mathematical Modeling (Third Prize)
+- *2021.6*, MathorCup Mathematical Modeling (Third Prize)
+- *2020.6*, Outstanding graduate of School of Xuteli 
+- *2020.6*, The Artificial Intelligence Challenge of Robomaster, perception (Excellence Award)
+- *2020.7*, NXP National College Student Smart Car Competition (Second Prize in North China)
+- *2019.1*, China Undergraduate Mathematical Contest in Modeling (Second Prize in Beijing)
+
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2016.8 - 2020.9*, B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
+- *2020.9 - now*, Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
