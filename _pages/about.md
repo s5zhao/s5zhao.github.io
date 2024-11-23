@@ -21,14 +21,25 @@ Now I am a fifth-year PhD student in [School of Automation](https://ac.bit.edu.c
 
 I am very fortunate to be advised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm) of Navigation, Guidance and Control Lab from School of Automation, Beijing Institute of Technology.
 
-My research interest includes strapdown inertial navigation system, integrated navigation, information fusion, terrain matching navigation and gravity matching navigation. 
+My research interest includes strapdown inertial navigation system, integrated navigation, information fusion, terrain matching navigation and gravity matching navigation.
+
+[School of Automation](https://ac.bit.edu.cn/), [Beijing Institute of Technology](https://www.bit.edu.cn/)
+
+**Location**: No. 5, South Street, Zhongguancun, Haidian District, Beijing, China.
+
+**Email**: [zhaoshengwu@bit.edu.cn](zhaoshengwu@bit.edu.cn), [bit_zsw_ah@163.com](bit_zsw_ah@163.com)
+
+**ORCID**: [0000-0003-3459-3062](https://orcid.org/0000-0003-3459-3062)
+
+**Google Scholar**: [Shengwu Zhao](https://scholar.google.com.hk/citations?hl=en&user=amGtFUIAAAAJ)
+
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
 - *2024.10*: &nbsp;🎉🎉 Won the National Scholarship for Ph.D students (ranked 1st in School of Automation)
-- *2024.08*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH.
+- *2024.08*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH
 
 
 # 📝 Publications 
