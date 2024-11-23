@@ -144,16 +144,16 @@ CN202110545814.3 (3rd), CN202311811811.5 (2nd), CN202311694509.6 (3rd), CN202110
 # 🎖 Honors and Awards
 
 - *2024.11*,  National Scholarship for Ph.D students
-- *2022.8*,  Technical Invention Award of Chinese Society of Inertial Technology (**First Prize**)
-- *2022.1*, APMCM Mathematical Modeling (**First Prize, TOP 4**)
+- *2022.08*,  Technical Invention Award of Chinese Society of Inertial Technology (**First Prize**)
+- *2022.01*, APMCM Mathematical Modeling (**First Prize, TOP 4**)
 - *2021.12*, Huawei Cup Mathematical Modeling (Third Prize)
-- *2021.6*, MathorCup Mathematical Modeling (Third Prize)
-- *2020.6*, Outstanding graduate of School of Xuteli 
-- *2020.6*, The Artificial Intelligence Challenge of Robomaster, perception (Excellence Award)
-- *2020.7*, NXP National College Student Smart Car Competition (Second Prize in North China)
-- *2019.1*, China Undergraduate Mathematical Contest in Modeling (Second Prize in Beijing)
+- *2021.06*, MathorCup Mathematical Modeling (Third Prize)
+- *2020.06*, Outstanding graduate of School of Xuteli 
+- *2020.06*, The Artificial Intelligence Challenge of Robomaster, perception (Excellence Award)
+- *2020.07*, NXP National College Student Smart Car Competition (Second Prize in North China)
+- *2019.01*, China Undergraduate Mathematical Contest in Modeling (Second Prize in Beijing)
 
 
 # 📖 Educations
-- *2016.8 - 2020.9*, B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
-- *2020.9 - now*, Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
+- *2016.08 - 2020.09*, B. E. in [School of Xuteli](https://xuteli.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Xuan Xiao](https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm).
+- *2020.09 - now*, Ph. D. student in [School of Automation](https://ac.bit.edu.cn/), Beijing Institute of Technology, supervised by [Prof. Zhihong Deng](https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm).
