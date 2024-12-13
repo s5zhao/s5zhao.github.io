@@ -36,8 +36,8 @@ My research interest includes *strapdown inertial navigation system*, *integrate
 
 
 # 🔥 News
-- *2024.12*: &nbsp; Made a presentation at the conference CHINESE-RUSSIAN "NAVIGATION AND MOTION CONTROL"YOUTH FORUM, entitled "Analysis of influencing factors and positioning methods of underwater geophysical field matching"
-- *2024.12*：&nbsp;🎉🎉 Got 1 basic research project for young students of the National Natural Science Foundation (for Ph.D student)
+- *2024.12*: &nbsp;🎉🎉 Made a presentation at the conference CHINESE-RUSSIAN "NAVIGATION AND MOTION CONTROL" YOUTH FORUM, entitled "Analysis of influencing factors and positioning methods of underwater geophysical field matching"
+- *2024.12*: &nbsp;🎉🎉 Got 1 basic research project for young students of the National Natural Science Foundation (for Ph.D student)
 - *2024.10*: &nbsp;🎉🎉 Won the National Scholarship for Ph.D students (ranked 1st in School of Automation)
 - *2024.08*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH
 
