@@ -36,6 +36,8 @@ My research interest includes *strapdown inertial navigation system*, *integrate
 
 
 # 🔥 News
+- *2024.12*: &nbsp; Made a presentation at the conference CHINESE-RUSSIAN "NAVIGATION AND MOTION CONTROL"YOUTH FORUM, entitled "Analysis of influencing factors and positioning methods of underwater geophysical field matching"
+- *2024.12*：&nbsp;🎉🎉 Got 1 basic research project for young students of the National Natural Science Foundation (for Ph.D student)
 - *2024.10*: &nbsp;🎉🎉 Won the National Scholarship for Ph.D students (ranked 1st in School of Automation)
 - *2024.08*: &nbsp;🎉🎉 One paper is accepted by IEEE TMECH
 
@@ -152,7 +154,7 @@ CN202110545814.3 (3rd), CN202311811811.5 (2nd), CN202311694509.6 (3rd), CN202110
 
 # 🎖 Honors and Awards
 
-- *2024.11*,  National Scholarship for Ph.D students
+- *2024.10*,  National Scholarship for Ph.D students
 - *2022.08*,  Technical Invention Award of Chinese Society of Inertial Technology (**First Prize**)
 - *2022.01*, APMCM Mathematical Modeling (**First Prize, TOP 4**)
 - *2021.12*, Huawei Cup Mathematical Modeling (Third Prize)
