@@ -1,10 +1,10 @@
 primary_name: "Shengwu Zhao"
 secondary_name: ""
-navbar_name: "Shengwu Zhao's Homepage"
+navbar_name: "Shengwu Zhao"
 
 positions:
 - logo: /assets/images/badges/BIT.svg  # Logo is optional
-  name: Beijing Institute of Technology
+  name: Beijing Institute of Technology (2025), PhD. student
 # - name: Position 2 without logo
 
 
@@ -38,11 +38,13 @@ education:
   logo: /assets/images/badges/BIT.svg
   position: >- 
     School of Automation <br/>
-    Ph.D. Student
+    Ph.D. Student major in Navigation, Guidance and Control
   date: Sep. 2020 - present
 - name: Beijing Institute of Technology
   logo: /assets/images/badges/BIT.svg
-  position: B.S. in School of Xuteli
+  position: >-
+    School of Xuteli <br/>
+    B.S. in Automation
   date: Sep. 2016 - Jul. 2020
 
 # experience:
@@ -52,11 +54,11 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: National Scholarship for Ph.D students
+- name: National Scholarship for Ph.D students 🚩 (ranked 1st)
   date: 2024
-- name: Technical Invention Award of Chinese Society of Inertial Technology (First Prize, ranked 8th)
+- name: Technical Invention Award of Chinese Society of Inertial Technology (<strong>First Prize</strong>🥇, ranked 8th)
   date: 2022
-- name: APMCM Mathematical Modeling (First Prize, TOP 4, ranked 1st)
+- name: APMCM Mathematical Modeling (<strong>First Prize</strong>🥇, TOP 4, ranked 1st)
   date: 2022
 - name: Huawei Cup Mathematical Modeling (Third Prize, ranked 1st)
   date: 2021

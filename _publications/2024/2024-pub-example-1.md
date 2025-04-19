@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE/ASME Transactions on Mechatronics (IEEE TMECH)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-dark">Journal</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-info">Journal</span>'
 pub_date:       "2024"
 
 abstract: >-
