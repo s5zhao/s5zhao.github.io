@@ -5,7 +5,7 @@ selected:       False
 pub:            "2021 40th Chinese Control Conference (CCC)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Journal</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Conference</span>'
 pub_date:       "2021"
 
 abstract: >-
