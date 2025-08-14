@@ -9,7 +9,7 @@ pub_last:       ' <span class="badge badge-pill badge-publication badge-secondar
 pub_date:       "2024"
 
 abstract: >-
-  The analysis of the factors affecting the accuracy of geophysical field matching can effectively provide guidance for the design and selection of matching algorithms. This paper mainly analyzes the influence of gravity field background map, gravity measurement error and inertial navigation position error on the matching. Firstly, the influence of the resolution of the gravity field background map, the accuracy of the grid points and the interpolation area on the reading value was studied. Secondly, taking the TERCOM algorithm as an example, the covariance matrix corresponding to the matching error is given. Simulation results show the effectiveness of the proposed theory.
+   This paper mainly analyzes the influence of gravity field background map, gravity measurement error and inertial navigation position error on the matching. Firstly, the influence of the resolution of the gravity field background map, the accuracy of the grid points and the interpolation area on the reading value was studied. Secondly, taking the TERCOM algorithm as an example, the covariance matrix corresponding to the matching error is given.
 # cover:          /assets/images/pubs/IEEE-TMECH1.png
 authors:
   - Shengwu Zhao
