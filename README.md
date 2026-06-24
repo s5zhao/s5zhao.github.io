@@ -8,8 +8,7 @@ Online entry:
 
 Main files:
 
-- `index.html`: GitHub Pages entry, redirects to the homepage.
-- `index_compact.html`: academic homepage content.
+- `index.html`: academic homepage content and GitHub Pages entry.
 - `citations.json`: cached Google Scholar citation counts.
 - `homepage_citations.js`: displays citation counts beside publications.
 - `.github/workflows/update-citations.yml`: scheduled citation update workflow.
