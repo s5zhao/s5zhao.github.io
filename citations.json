@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-06-24T14:12:01.002299+00:00",
+  "updated_at": "2026-06-24T16:36:02.546313+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -97,6 +97,48 @@
       "title": "A Gravity-Aided Navigation Matching Algorithm Based on Triangulation.",
       "citations": 5,
       "scholar_title": "A gravity-aided navigation matching algorithm based on triangulation",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "Multi-AUV Cooperative Navigation with Out-of-Sequence Measurement Compensation and Deep Learning-Based Process Noise Modeling.",
+      "citations": null,
+      "scholar_title": null,
+      "match_score": 0.192,
+      "status": "unmatched"
+    },
+    {
+      "title": "基于深度学习的递进式水下地形匹配定位方法.",
+      "citations": null,
+      "scholar_title": null,
+      "match_score": 0.0,
+      "status": "unmatched"
+    },
+    {
+      "title": "Bathymetric SLAM Approach Using Multibeam Sonar Toward Polar Region.",
+      "citations": 0,
+      "scholar_title": "Bathymetric SLAM Approach Using Multibeam Sonar Toward Polar Region",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "Research on Polar Navigation Problem of North-Seeking Strapdown Inertial Navigation System.",
+      "citations": 0,
+      "scholar_title": "Research on Polar Navigation Problem of North-Seeking Strapdown Inertial Navigation System",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "The Method for Selecting Adaptation Zones of Terrain Matching Based on Arctic Seabed Terrain Features.",
+      "citations": 1,
+      "scholar_title": "The Method for Selecting Adaptation Zones of Terrain Matching Based on Arctic Seabed Terrain Features",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "An improved ICCP gravity matching algorithm based on Mahalanobis distance.",
+      "citations": 15,
+      "scholar_title": "An improved ICCP gravity matching algorithm based on Mahalanobis distance",
       "match_score": 1.0,
       "status": "matched"
     }
