@@ -64,6 +64,17 @@ function renderCitationDate(data) {
   if (zhNode) zhNode.textContent = `引用更新：${zhDate}。`;
 }
 
+function renderCitationTotal(data) {
+  const totalNode = document.getElementById("scholarCitationTotal");
+  if (!totalNode) return;
+
+  const total = (data.papers || []).reduce((sum, paper) => {
+    return typeof paper.citations === "number" ? sum + paper.citations : sum;
+  }, 0);
+
+  totalNode.innerHTML = `<span class="lang-en">${total} citations</span><span class="lang-zh">引用 ${total} 次</span>`;
+}
+
 async function loadCitations() {
   const response = await fetch(`${CITATION_DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) {
@@ -86,8 +97,13 @@ async function updateCitationDisplay() {
       renderCitationBadge(pub, count);
     });
     renderCitationDate(data);
+    renderCitationTotal(data);
   } catch (error) {
     pubs.forEach((pub) => renderCitationBadge(pub, null));
+    const totalNode = document.getElementById("scholarCitationTotal");
+    if (totalNode) {
+      totalNode.innerHTML = '<span class="lang-en">Citations pending update</span><span class="lang-zh">引用待更新</span>';
+    }
   }
 }
 
