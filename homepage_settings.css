@@ -15,9 +15,12 @@
   --panel: #f6f8fa;
   --accent: #0969da;
   --accent-soft: #ddf4ff;
-  --citation-bg: #fff8c5;
-  --citation-line: #d4a72c;
-  --citation-text: #7d4e00;
+  --citation-bg: #eaf3ff;
+  --citation-line: #b6d6f8;
+  --citation-text: #1f2328;
+  --citation-count-bg: #b7dbff;
+  --citation-count-text: #1f2328;
+  --paper-title: #003366;
   --page-bg: #ffffff;
   --button-bg: #ffffff;
   --lang-active-bg: #4f759d;

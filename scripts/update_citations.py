@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Update citation counts from a Google Scholar author profile.
 
-This script reads publication titles from index_compact.html, scrapes the
+This script reads publication titles from index.html, scrapes the
 public Google Scholar profile, matches titles, and writes citations.json.
 """
 
@@ -23,7 +23,7 @@ from urllib.request import Request, urlopen
 
 
 DEFAULT_PROFILE_ID = "amGtFUIAAAAJ"
-DEFAULT_HTML = "index_compact.html"
+DEFAULT_HTML = "index.html"
 DEFAULT_OUTPUT = "citations.json"
 
 

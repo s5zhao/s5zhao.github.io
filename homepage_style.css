@@ -106,6 +106,21 @@ h1 {
   font-size: 0.98rem;
 }
 
+.affiliation-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 2px;
+}
+
+.bit-logo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
 .contact-line {
   display: flex;
   flex-wrap: wrap;
@@ -189,6 +204,76 @@ p { margin: 0 0 10px; }
   font-size: 0.86rem;
 }
 
+.education-list {
+  display: grid;
+  gap: 14px;
+}
+
+.education-item {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.education-item:last-child { border-bottom: 0; }
+
+.education-time {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.education-degree {
+  margin-bottom: 4px;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.education-detail {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.collapsible-publications summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.collapsible-publications summary::-webkit-details-marker {
+  display: none;
+}
+
+.collapsible-publications summary::before {
+  content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--button-bg);
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.collapsible-publications[open] summary::before {
+  content: "-";
+}
+
+.collapsible-publications summary h2 {
+  margin-bottom: 0;
+}
+
+.collapsible-publications .pub-list {
+  margin-top: 12px;
+}
+
 .pub-list {
   margin: 0;
   padding: 0;
@@ -223,7 +308,42 @@ p { margin: 0 0 10px; }
 
 .paper-title {
   display: block;
-  margin: 2px 0;
+  margin: 0 0 3px;
+  color: var(--paper-title);
+  font-family: Calibri, "Segoe UI", Arial, "Microsoft YaHei", sans-serif;
+  font-size: 1.03rem;
+  font-weight: 700;
+  line-height: 1.38;
+}
+
+.paper-authors {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--ink);
+  font-size: 0.94rem;
+}
+
+.paper-authors sup {
+  color: var(--selected-venue);
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.paper-authors .citation-badge {
+  margin: 0 0 0 8px;
+  transform: translateY(2px);
+}
+
+.pub-note {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.pub-note sup {
+  color: var(--selected-venue);
+  font-weight: 700;
 }
 
 .venue {
@@ -232,18 +352,80 @@ p { margin: 0 0 10px; }
   font-size: 0.92rem;
 }
 
+.citation-summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.scholar-citation-total {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
 .citation-badge {
   display: inline-flex;
   align-items: center;
+  overflow: hidden;
   min-height: 22px;
   margin-top: 6px;
-  padding: 2px 8px;
   border: 1px solid var(--citation-line);
   border-radius: 4px;
   background: var(--citation-bg);
   color: var(--citation-text);
   font-size: 0.84rem;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.scholar-badge {
+  gap: 0;
+}
+
+.scholar-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px 0 5px;
+  flex: 0 0 auto;
+}
+
+.scholar-icon-cap,
+.scholar-icon-base {
+  fill: #4285f4;
+}
+
+.scholar-icon-base {
+  opacity: 0.88;
+}
+
+.scholar-icon-tassel {
+  fill: none;
+  stroke: #2f6fd6;
+  stroke-linecap: round;
+  stroke-width: 1.6;
+}
+
+.citation-label {
+  padding: 4px 6px 4px 0;
+}
+
+.citation-count {
+  align-self: stretch;
+  display: inline-flex;
+  align-items: center;
+  min-width: 24px;
+  padding: 0 7px;
+  border-left: 1px solid var(--citation-line);
+  background: var(--citation-count-bg);
+  color: var(--citation-count-text);
+  font-weight: 700;
+  justify-content: center;
+}
+
+.citation-badge-total {
+  margin-top: 0;
+  transform: translateY(2px);
 }
 
 .citation-badge.is-missing {
@@ -258,6 +440,7 @@ p { margin: 0 0 10px; }
 body[data-lang="zh"] .lang-en { display: none; }
 body[data-lang="zh"] .lang-zh { display: inline; }
 body[data-lang="zh"] p.lang-zh { display: block; }
+body[data-lang="zh"] p.lang-zh.citation-summary { display: flex; }
 
 .compact-list {
   margin: 0;
@@ -298,5 +481,6 @@ body[data-lang="zh"] p.lang-zh { display: block; }
     height: var(--portrait-mobile-size);
   }
   h1 { font-size: var(--name-mobile-font-size); }
+  .education-item { grid-template-columns: 1fr; gap: 4px; }
   .pub { grid-template-columns: 30px minmax(0, 1fr); }
 }

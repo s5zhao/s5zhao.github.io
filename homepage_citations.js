@@ -1,6 +1,13 @@
 // Citation display logic. The data file is updated by scripts/update_citations.py.
 const CITATION_DATA_URL = "citations.json";
 const CITATION_REFRESH_MS = 12 * 60 * 60 * 1000;
+const SCHOLAR_ICON = `
+  <svg class="scholar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path class="scholar-icon-cap" d="M12 3 2.75 8.25 12 13.5l9.25-5.25L12 3Z" />
+    <path class="scholar-icon-base" d="M6.75 11.25v4.6c0 1.65 2.35 3.15 5.25 3.15s5.25-1.5 5.25-3.15v-4.6L12 14.2l-5.25-2.95Z" />
+    <path class="scholar-icon-tassel" d="M19.4 9.25v4.1" />
+  </svg>
+`;
 
 function normalizeCitationTitle(title) {
   return title
@@ -18,35 +25,52 @@ function getPublicationTitle(pub) {
 function citationText(count) {
   if (typeof count !== "number") {
     return {
-      en: "Citations pending update",
-      zh: "引用待更新",
+      en: "pending",
+      zh: "待更新",
+      value: "?",
     };
   }
 
   return {
-    en: count === 1 ? "1 citation" : `${count} citations`,
-    zh: `引用 ${count} 次`,
+    en: "citations",
+    zh: "引用",
+    value: String(count),
   };
+}
+
+function citationBadgeHtml(count, extraClass = "") {
+  const text = citationText(count);
+  const stateClass = typeof count === "number" ? "" : " is-missing";
+
+  return `
+    <span class="citation-badge scholar-badge${stateClass} ${extraClass}">
+      ${SCHOLAR_ICON}
+      <span class="citation-label">
+        <span class="lang-en">${text.en}</span>
+        <span class="lang-zh">${text.zh}</span>
+      </span>
+      <span class="citation-count">${text.value}</span>
+    </span>
+  `;
 }
 
 function ensureCitationBadge(pub) {
   let badge = pub.querySelector(".citation-badge");
   if (!badge) {
     badge = document.createElement("span");
-    badge.className = "citation-badge";
-    badge.innerHTML = '<span class="lang-en"></span><span class="lang-zh"></span>';
-    pub.querySelector("div").appendChild(badge);
+    const authors = pub.querySelector(".paper-authors");
+    if (authors) {
+      authors.appendChild(badge);
+    } else {
+      pub.querySelector("div").appendChild(badge);
+    }
   }
   return badge;
 }
 
 function renderCitationBadge(pub, count) {
   const badge = ensureCitationBadge(pub);
-  const text = citationText(count);
-
-  badge.classList.toggle("is-missing", typeof count !== "number");
-  badge.querySelector(".lang-en").textContent = text.en;
-  badge.querySelector(".lang-zh").textContent = text.zh;
+  badge.outerHTML = citationBadgeHtml(count);
 }
 
 function renderCitationDate(data) {
@@ -65,14 +89,16 @@ function renderCitationDate(data) {
 }
 
 function renderCitationTotal(data) {
-  const totalNode = document.getElementById("scholarCitationTotal");
-  if (!totalNode) return;
+  const totalNodes = Array.from(document.querySelectorAll("#scholarCitationTotal, .scholar-citation-total"));
+  if (!totalNodes.length) return;
 
   const total = (data.papers || []).reduce((sum, paper) => {
     return typeof paper.citations === "number" ? sum + paper.citations : sum;
   }, 0);
 
-  totalNode.innerHTML = `<span class="lang-en">${total} citations</span><span class="lang-zh">引用 ${total} 次</span>`;
+  totalNodes.forEach((node) => {
+    node.innerHTML = citationBadgeHtml(total, "citation-badge-total");
+  });
 }
 
 async function loadCitations() {
@@ -100,10 +126,9 @@ async function updateCitationDisplay() {
     renderCitationTotal(data);
   } catch (error) {
     pubs.forEach((pub) => renderCitationBadge(pub, null));
-    const totalNode = document.getElementById("scholarCitationTotal");
-    if (totalNode) {
-      totalNode.innerHTML = '<span class="lang-en">Citations pending update</span><span class="lang-zh">引用待更新</span>';
-    }
+    document.querySelectorAll("#scholarCitationTotal, .scholar-citation-total").forEach((node) => {
+      node.innerHTML = citationBadgeHtml(null, "citation-badge-total");
+    });
   }
 }
 
