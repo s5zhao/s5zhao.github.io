@@ -455,6 +455,13 @@ body[data-lang="zh"] p.lang-zh.citation-summary { display: flex; }
 
 .compact-list li:last-child { border-bottom: 0; }
 
+.scholar-contact-line {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .year {
   display: inline-block;
   min-width: 72px;
