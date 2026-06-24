@@ -1,0 +1,104 @@
+{
+  "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
+  "updated_at": "2026-06-24T14:12:01.002299+00:00",
+  "papers": [
+    {
+      "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
+      "citations": 0,
+      "scholar_title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence.",
+      "citations": 10,
+      "scholar_title": "Terrain matching algorithm based on trajectory reconstruction and correlation analysis of sliding measurement sequence",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "Adaptive Point Mass Filter and Its Application in Terrain Matching Navigation.",
+      "citations": 5,
+      "scholar_title": "Adaptive Point Mass Filter and Its Application in Terrain Matching Navigation",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area.",
+      "citations": 16,
+      "scholar_title": "Gravity matching algorithm based on backtracking for small range adaptation area",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System.",
+      "citations": 30,
+      "scholar_title": "An improved particle filter based on gravity measurement feature in gravity-aided inertial navigation system",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "Gravity Matching Algorithm Based on Correlation Filter.",
+      "citations": 10,
+      "scholar_title": "Gravity matching algorithm based on correlation filter",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "Global Dynamic Path-Planning Algorithm in Gravity-Aided Inertial Navigation System.",
+      "citations": 9,
+      "scholar_title": "Global dynamic path‐planning algorithm in gravity‐aided inertial navigation system",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "The Analysis of Influencing Factors on Geophysical Field Matching.",
+      "citations": 0,
+      "scholar_title": "The Analysis of Influencing Factors on Geophysical Field Matching",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "基于回溯导航策略的重力匹配方法.",
+      "citations": null,
+      "scholar_title": null,
+      "match_score": 0.0,
+      "status": "unmatched"
+    },
+    {
+      "title": "Suitable Matching Area Selection Algorithm Based on Terrain Triangulation Model for Terrain-Aided Inertial Navigation.",
+      "citations": 0,
+      "scholar_title": "Suitable Matching Area Selection Algorithm Based on Terrain Triangulation Model for Terrain-Aided Inertial Navigation",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "基于DBCNN-SITAN的深度自适应重力匹配方法.",
+      "citations": null,
+      "scholar_title": null,
+      "match_score": 0.0,
+      "status": "unmatched"
+    },
+    {
+      "title": "A Low-Order Gravity Disturbance Compensation Algorithm Based on Carrier Motion Constraints.",
+      "citations": 1,
+      "scholar_title": "A Low-Order Gravity Disturbance Compensation Algorithm Based on Carrier Motion Constraints",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "A Gravity Matching Adaptability Analysis Method based on Gravity Directional Characteristics.",
+      "citations": 0,
+      "scholar_title": "A Gravity Matching Adaptability Analysis Method Based on Gravity Directional Characteristics",
+      "match_score": 1.0,
+      "status": "matched"
+    },
+    {
+      "title": "A Gravity-Aided Navigation Matching Algorithm Based on Triangulation.",
+      "citations": 5,
+      "scholar_title": "A gravity-aided navigation matching algorithm based on triangulation",
+      "match_score": 1.0,
+      "status": "matched"
+    }
+  ]
+}

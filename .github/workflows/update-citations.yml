@@ -1,0 +1,30 @@
+name: Update Google Scholar citations
+
+on:
+  schedule:
+    - cron: "20 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update citation cache
+        run: python scripts/update_citations.py
+
+      - name: Commit citation changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Google Scholar citation counts
+          file_pattern: citations.json

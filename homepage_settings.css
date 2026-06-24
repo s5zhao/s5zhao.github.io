@@ -1,0 +1,42 @@
+/* 参数设置文件
+   这个文件只放“外观参数”，不放论文、简介等学术内容。
+   常用修改：
+   1. 改 --accent 可以换链接和主题色。
+   2. 改 --max-width 可以调整页面整体宽度。
+   3. 改 --portrait-size 可以调整头像大小。
+   4. 改 --sidebar-width 可以调整右侧栏宽度。
+*/
+
+:root {
+  /* 颜色参数 */
+  --ink: #1f2328;
+  --muted: #68727d;
+  --line: #d8dee4;
+  --panel: #f6f8fa;
+  --accent: #0969da;
+  --accent-soft: #ddf4ff;
+  --citation-bg: #fff8c5;
+  --citation-line: #d4a72c;
+  --citation-text: #7d4e00;
+  --page-bg: #ffffff;
+  --button-bg: #ffffff;
+  --lang-active-bg: #4f759d;
+  --lang-active-text: #ffffff;
+  --selected-venue: #cf222e;
+
+  /* 尺寸参数 */
+  --max-width: 1080px;
+  --sidebar-width: 300px;
+  --portrait-size: 104px;
+  --portrait-mobile-size: 86px;
+  --page-padding: 28px 24px 42px;
+  --page-mobile-padding: 18px 16px 34px;
+  --section-gap: 28px;
+  --grid-gap: 28px;
+
+  /* 字体参数 */
+  --body-font-size: 15.5px;
+  --body-line-height: 1.58;
+  --name-font-size: 1.82rem;
+  --name-mobile-font-size: 1.55rem;
+}

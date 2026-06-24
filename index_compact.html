@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shengwu Zhao | Academic Homepage</title>
+  <!-- 参数设置文件：颜色、宽度、头像大小等外观参数都在这里改 -->
+  <link rel="stylesheet" href="homepage_settings.css" />
+  <!-- 页面布局样式：一般不改；需要改布局时看 homepage_style.css -->
+  <link rel="stylesheet" href="homepage_style.css" />
+</head>
+<body data-lang="en">
+  <!-- 修改提示：
+    1. 新增论文：复制一个 <li class="pub">...</li> 条目并修改作者、题名、期刊和年份。
+    2. 新增奖励：在右侧 Awards 的 <ul class="compact-list"> 里增加 <li>。
+    3. 更换照片：把新照片放到 photos/ 文件夹，并修改下面 img 的 src。
+  -->
+  <div class="page">
+    <!-- 顶部信息区：姓名、身份、简短联系方式和站内导航 -->
+    <header class="masthead">
+      <div class="portrait">
+        <img src="photos/portrait.jpg" alt="Portrait of Shengwu Zhao" />
+      </div>
+      <div>
+        <div class="profile-top">
+          <h1><span class="lang-en">Shengwu Zhao</span><span class="lang-zh">赵生武</span></h1>
+          <button class="lang-toggle" type="button" id="languageToggle" aria-label="切换到中文">
+            <span class="lang-choice lang-choice-en">EN</span>
+            <span class="lang-choice lang-choice-zh">中</span>
+          </button>
+        </div>
+        <p class="role"><span class="lang-en">Doctor of Engineering, School of Automation, 
+              Beijing Institute of Technology</span><span class="lang-zh">工学博士，北京理工大学自动化学院</span></p>
+        <ul class="contact-line">
+          <li><a href="mailto:zhaoshengwu@bit.edu.cn">zhaoshengwu@bit.edu.cn</a></li>
+          <!-- <li>Beijing, China</li> -->
+          <li><a href="https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0003-3459-3062" target="_blank" rel="noreferrer">ORCID</a></li>
+
+        </ul>
+        <nav aria-label="Main navigation">
+          <ul class="nav">
+            <li><a href="#about"><span class="lang-en">About</span><span class="lang-zh">关于我</span></a></li>
+            <!-- <li><a href="#research">Research</a></li> -->
+            <li><a href="#publications"><span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></a></li>
+            <li><a href="#awards"><span class="lang-en">Awards</span><span class="lang-zh">荣誉奖励</span></a></li>
+            <li><a href="#contact"><span class="lang-en">Contact</span><span class="lang-zh">联系我</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- 左侧主内容：简介、研究方向、论文列表 -->
+      <main>
+        <section id="about">
+          <h2><span class="lang-en">About</span><span class="lang-zh">关于我</span></h2>
+          <p class="lang-en">
+            I am a sixth-year Ph.D. student in the <a href="https://ac.bit.edu.cn/" target="_blank" rel="noreferrer">School of Automation</a> at <a href="https://www.bit.edu.cn/" target="_blank" rel="noreferrer">Beijing Institute of Technology</a>. I received my bachelor's degree from the <a href="https://xuteli.bit.edu.cn/" target="_blank" rel="noreferrer">School of Xuteli</a>, Beijing Institute of Technology, in 2020.
+          </p>
+          <p class="lang-zh">
+            我是北京理工大学<a href="https://ac.bit.edu.cn/" target="_blank" rel="noreferrer">自动化学院</a>工学博士，本科毕业于北京理工大学<a href="https://xuteli.bit.edu.cn/" target="_blank" rel="noreferrer">徐特立学院</a>。
+          </p>
+          <p class="lang-en">
+            I am advised by <a href="https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm" target="_blank" rel="noreferrer">Prof. Zhihong Deng</a> and <a href="https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm" target="_blank" rel="noreferrer">Prof. Xuan Xiao</a> in the Integrated Navigation and Intelligent Navigation Lab.
+          </p>
+          <p class="lang-zh">
+            师从<a href="https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm" target="_blank" rel="noreferrer">邓志红教授</a>和<a href="https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm" target="_blank" rel="noreferrer">肖璇教授</a>，所在团队为综合导航与智能导航实验室。
+          </p>
+        </section>
+
+        <!-- 研究方向标签：直接改 li 文本即可 -->
+        <!-- <section id="research">
+          <h2>Research Interests</h2>
+          <ul class="tags">
+            <li>Strapdown inertial navigation</li>
+            <li>Integrated navigation</li>
+            <li>Terrain matching navigation</li>
+            <li>Gravity matching navigation</li>
+            <li>Adaptability analysis</li>
+          </ul>
+        </section> -->
+
+        <!-- 论文列表：class="selected" 的条目会高亮期刊名 -->
+        <section id="publications">
+          <h2><span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></h2>
+          <!-- 引用数由 citations.json 提供，运行 scripts/update_citations.py 可从 Google Scholar 更新。 -->
+          <ol class="pub-list">
+            <li class="pub selected"><div><span><strong>Shengwu Zhao</strong>, Zhaonan Jiao, Wenzhe Zhang, Zhihong Deng.</span><span class="paper-title">An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.</span><span class="venue"><strong>IEEE Transactions on Geoscience and Remote Sensing</strong>, 2025, 63: 1-13.</span></div></li>
+            <li class="pub selected"><div><span><strong>Shengwu Zhao</strong>, Zhihong Deng, Qingzhe Wang, Wenzhe Zhang, Xun Gong.</span><span class="paper-title">Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence.</span><span class="venue"><strong>IEEE/ASME Transactions on Mechatronics</strong>, 2025, 30(3): 2110-2121.</span></div></li>
+            <li class="pub selected"><div><span><strong>Shengwu Zhao</strong>, Zhihong Deng, Wenzhe Zhang, Yu Wang.</span><span class="paper-title">Adaptive Point Mass Filter and Its Application in Terrain Matching Navigation.</span><span class="venue"><strong>IEEE Transactions on Instrumentation and Measurement</strong>, 2025, 74: 1-13.</span></div></li>
+            <li class="pub selected"><div><span><strong>Shengwu Zhao</strong>, Xuan Xiao, Xuan Pang, Yu Wang, Zhihong Deng.</span><span class="paper-title">Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area.</span><span class="venue"><strong>IEEE Transactions on Instrumentation and Measurement</strong>, 2024, 73: 1-13.</span></div></li>
+            <li class="pub"><div><span><strong>Shengwu Zhao</strong>, Xuan Xiao, Yu Wang, Zhihong Deng.</span><span class="paper-title">An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System.</span><span class="venue">IEEE Sensors Journal, 2022, 23(2): 1423-1435.</span></div></li>
+            <li class="pub"><div><span><strong>Shengwu Zhao</strong>, Xuan Xiao, Zhihong Deng, Lei Shi.</span><span class="paper-title">Gravity Matching Algorithm Based on Correlation Filter.</span><span class="venue">IEEE Sensors Journal, 2022, 23(3): 2618-2629.</span></div></li>
+            <li class="pub"><div><span><strong>Shengwu Zhao</strong>, Lei Shi, Wenzhe Zhang, Zhihong Deng.</span><span class="paper-title">Global Dynamic Path-Planning Algorithm in Gravity-Aided Inertial Navigation System.</span><span class="venue">IET Signal Processing, 2021, 15(8): 510-520.</span></div></li>
+            <li class="pub"><div><span><strong>Shengwu Zhao</strong>, Wenzhe Zhang, Yu Wang, Zhihong Deng.</span><span class="paper-title">The Analysis of Influencing Factors on Geophysical Field Matching.</span><span class="venue">International Conference on Guidance, Navigation and Control, 2024, 557-566.</span></div></li>
+            <li class="pub"><div><span><strong>赵生武</strong>, 庞璇, 邓志红.</span><span class="paper-title">基于回溯导航策略的重力匹配方法.</span><span class="venue">2022 中国惯性技术研讨会, 2022, 1-10.</span></div></li>
+          </ol>
+        </section>
+
+        <!-- 合作论文：结构和上面的论文列表一致 -->
+        <section>
+          <h2><span class="lang-en">Collaborative Publications</span><span class="lang-zh">合作论文</span></h2>
+          <ol class="pub-list">
+            <li class="pub"><div><span>Zhaonan Jiao, <strong>Shengwu Zhao</strong>, Yu Wang, Zhihong Deng.</span><span class="paper-title">Suitable Matching Area Selection Algorithm Based on Terrain Triangulation Model for Terrain-Aided Inertial Navigation.</span><span class="venue">IEEE Sensors Journal, 2025, 25(17): 33339-33349.</span></div></li>
+            <li class="pub"><div><span>张文喆, <strong>赵生武</strong>, 邓志红.</span><span class="paper-title">基于DBCNN-SITAN的深度自适应重力匹配方法.</span><span class="venue">中国惯性技术学报, 2026.</span></div></li>
+            <li class="pub"><div><span>Yu Wang, Wenzhe Zhang, <strong>Shengwu Zhao</strong>, Zhihong Deng.</span><span class="paper-title">A Low-Order Gravity Disturbance Compensation Algorithm Based on Carrier Motion Constraints.</span><span class="venue">IEEE Sensors Journal, 2025, 25(8): 13742-13752.</span></div></li>
+            <li class="pub"><div><span>Wenzhe Zhang, Yu Wang, <strong>Shengwu Zhao</strong>, Zhihong Deng.</span><span class="paper-title">A Gravity Matching Adaptability Analysis Method based on Gravity Directional Characteristics.</span><span class="venue">IEEE Sensors Journal, 2026, 1-1.</span></div></li>
+            <li class="pub"><div><span>Yu Wang, Zhihong Deng, Peiyuan Zhang, Bo Wang, <strong>Shengwu Zhao</strong>.</span><span class="paper-title">A Gravity-Aided Navigation Matching Algorithm Based on Triangulation.</span><span class="venue">IEEE Sensors Journal, 2024, 24(21): 34851-34861.</span></div></li>
+          </ol>
+        </section>
+      </main>
+
+      <!-- 右侧栏：联系方式和奖励，适合放简短信息 -->
+      <aside>
+        <div class="side-panel" id="contact">
+          <h2><span class="lang-en">Contact</span><span class="lang-zh">联系方式</span></h2>
+          <ul class="compact-list">
+            <li><strong><span class="lang-en">Email</span><span class="lang-zh">邮箱</span></strong><br /><a href="mailto:zhaoshengwu@bit.edu.cn">zhaoshengwu@bit.edu.cn</a></li>
+            <!-- <li><strong><span class="lang-en">Phone</span><span class="lang-zh">电话</span></strong><br />+86 188-1169-3687</li> -->
+            <li><strong><span class="lang-en">Address</span><span class="lang-zh">地址</span></strong><br /><span class="lang-en">School of Automation, Beijing Institute of Technology, Beijing, 100081, P.R. China</span><span class="lang-zh">北京市海淀区中关村南大街5号，北京理工大学自动化学院，100081</span></li>
+            <li><strong><span class="lang-en">Scholar</span><span class="lang-zh">学术主页</span></strong><br /><a href="https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer"><span class="lang-en">Google Scholar profile</span><span class="lang-zh">Google Scholar 主页</span></a></li>
+          </ul>
+        </div>
+
+        <div class="side-panel" id="awards">
+          <h2><span class="lang-en">Awards</span><span class="lang-zh">奖励荣誉</span></h2>
+          <ul class="compact-list">
+            <li><span class="year">2026</span><span class="lang-en">Outstanding Communist Youth League Member, BIT</span><span class="lang-zh">北京理工大学优秀共青团员</span></li>
+            <li><span class="year">2025</span><span class="lang-en">Excellent Doctoral Dissertation Cultivation Fund, BIT</span><span class="lang-zh">北京理工大学优秀博士学位论文培育基金</span></li>
+            <li><span class="year">2025</span><span class="lang-en">Engineering Case Repository, Ministry of Education Case Center</span><span class="lang-zh">入选教育部中国专业学位案例中心工程案例库第二批案例</span></li>
+            <li><span class="year">2024</span><span class="lang-en">National Scholarship for Graduate Students</span><span class="lang-zh">研究生国家奖学金</span></li>
+            <li><span class="year">2022</span><span class="lang-en">First Prize of Technical Invention Award, CSIT</span><span class="lang-zh">中国惯性技术学会技术发明一等奖</span></li>
+            <li><span class="year">2021</span><span class="lang-en">First Prize, Asia and Pacific Mathematical Contest in Modeling</span><span class="lang-zh">亚太地区大学生数学建模竞赛一等奖</span></li>
+            <li><span class="year">2020-26</span><span class="lang-en">Academic Scholarships for Graduate Students, BIT</span><span class="lang-zh">北京理工大学研究生一、二等奖学金</span></li>
+          </ul>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <span class="lang-en">Last updated: June 24, 2026. <span id="citationUpdatedEn"></span> Copyright © 2026 Shengwu Zhao.</span><span class="lang-zh">最后更新：2026年6月24日。<span id="citationUpdatedZh"></span> 版权所有 © 2026 赵生武。</span>
+    </footer>
+  </div>
+  <script src="homepage_language.js"></script>
+  <script src="homepage_citations.js"></script>
+</body>
+</html>
