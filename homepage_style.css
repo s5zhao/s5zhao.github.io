@@ -367,13 +367,13 @@ p { margin: 0 0 10px; }
   display: inline-flex;
   align-items: center;
   overflow: hidden;
-  min-height: 22px;
+  min-height: 18px;
   margin-top: 6px;
   border: 1px solid var(--citation-line);
   border-radius: 4px;
   background: var(--citation-bg);
   color: var(--citation-text);
-  font-size: 0.84rem;
+  font-size: 0.75rem;
   font-weight: 500;
   line-height: 1;
   vertical-align: middle;
@@ -384,9 +384,9 @@ p { margin: 0 0 10px; }
 }
 
 .scholar-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 3px 0 5px;
+  width: 15px;
+  height: 15px;
+  margin: 0 3px 0 4px;
   flex: 0 0 auto;
 }
 
@@ -407,15 +407,15 @@ p { margin: 0 0 10px; }
 }
 
 .citation-label {
-  padding: 4px 6px 4px 0;
+  padding: 3px 5px 3px 0;
 }
 
 .citation-count {
   align-self: stretch;
   display: inline-flex;
   align-items: center;
-  min-width: 24px;
-  padding: 0 7px;
+  min-width: 20px;
+  padding: 0 6px;
   border-left: 1px solid var(--citation-line);
   background: var(--citation-count-bg);
   color: var(--citation-count-text);
