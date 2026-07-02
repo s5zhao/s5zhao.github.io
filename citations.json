@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-06-24T16:36:02.546313+00:00",
+  "updated_at": "2026-07-02T21:36:13.407955+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -25,21 +25,21 @@
     },
     {
       "title": "Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area.",
-      "citations": 16,
+      "citations": 17,
       "scholar_title": "Gravity matching algorithm based on backtracking for small range adaptation area",
       "match_score": 1.0,
       "status": "matched"
     },
     {
       "title": "An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System.",
-      "citations": 30,
+      "citations": 31,
       "scholar_title": "An improved particle filter based on gravity measurement feature in gravity-aided inertial navigation system",
       "match_score": 1.0,
       "status": "matched"
     },
     {
       "title": "Gravity Matching Algorithm Based on Correlation Filter.",
-      "citations": 10,
+      "citations": 11,
       "scholar_title": "Gravity matching algorithm based on correlation filter",
       "match_score": 1.0,
       "status": "matched"
@@ -136,7 +136,7 @@
       "status": "matched"
     },
     {
-      "title": "An improved ICCP gravity matching algorithm based on Mahalanobis distance.",
+      "title": "An Improved ICCP Gravity Matching Algorithm Based on Mahalanobis Distance.",
       "citations": 15,
       "scholar_title": "An improved ICCP gravity matching algorithm based on Mahalanobis distance",
       "match_score": 1.0,
