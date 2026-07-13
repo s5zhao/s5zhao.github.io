@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-07-10T21:29:53.623969+00:00",
+  "updated_at": "2026-07-13T21:14:42.347858+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -137,7 +137,7 @@
     },
     {
       "title": "An Improved ICCP Gravity Matching Algorithm Based on Mahalanobis Distance.",
-      "citations": 14,
+      "citations": 15,
       "scholar_title": "An improved ICCP gravity matching algorithm based on Mahalanobis distance",
       "match_score": 1.0,
       "status": "matched"
