@@ -1,197 +1,374 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shengwu Zhao | Academic Homepage</title>
-  <!-- 参数设置文件：颜色、宽度、头像大小等外观参数都在这里改 -->
+  <meta name="description" content="Shengwu Zhao's academic homepage — research in underwater geophysical field matching, inertial navigation, and multi-source fusion navigation." />
+  <meta name="theme-color" content="#082f3d" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Shengwu Zhao | Underwater Navigation Research" />
+  <meta property="og:description" content="Research on geophysical field matching, inertial navigation, and multi-source fusion for long-duration underwater positioning." />
+  <meta property="og:url" content="https://s5zhao.github.io/" />
+  <meta property="og:image" content="https://s5zhao.github.io/photos/og.png" />
+  <meta property="og:image:width" content="1734" />
+  <meta property="og:image:height" content="908" />
+  <meta property="og:image:alt" content="Shengwu Zhao — Underwater Navigation" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://s5zhao.github.io/photos/og.png" />
+  <title>Shengwu Zhao | Underwater Navigation Research</title>
+  <link rel="icon" href="photos/logo_01.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="homepage_settings.css" />
-  <!-- 页面布局样式：一般不改；需要改布局时看 homepage_style.css -->
   <link rel="stylesheet" href="homepage_style.css" />
 </head>
 <body data-lang="en">
-  <!-- 修改提示：
-    1. 新增论文：复制一个 <li class="pub">...</li> 条目并修改作者、题名、期刊和年份。
-    2. 新增奖励：在右侧 Awards 的 <ul class="compact-list"> 里增加 <li>。
-    3. 更换照片：把新照片放到 photos/ 文件夹，并修改下面 img 的 src。
+  <!--
+    ========================================================================
+    新手维护提示
+    ========================================================================
+    1. 个人介绍、论文、教育经历等奖励内容，都在本 index.html 文件中修改。
+    2. 字体大小、颜色、页面宽度，请去 homepage_settings.css 修改。
+       那个文件已经把常用参数集中列出，并配有中文说明。
+    3. <span class="lang-en">...</span> 中填写英文；
+       <span class="lang-zh">...</span> 中填写对应中文。
+    4. 像这一段一样的灰色说明文字属于 HTML 注释，不会显示在网页上。
+    5. 修改时注意保留成对出现的开始标签和结束标签，例如：
+       <p>这是一段文字</p>、<span>这是一小段文字</span>。
   -->
-  <div class="page">
-    <!-- 顶部信息区：姓名、身份、简短联系方式和站内导航 -->
-    <header class="masthead">
-      <div class="portrait">
-        <img src="photos/portrait.jpg" alt="Portrait of Shengwu Zhao" />
-      </div>
-      <div>
-        <div class="profile-top">
-          <h1><span class="lang-en">Shengwu Zhao</span><span class="lang-zh">赵生武</span></h1>
-          <button class="lang-toggle" type="button" id="languageToggle" aria-label="切换到中文">
-            <span class="lang-choice lang-choice-en">EN</span>
-            <span class="lang-choice lang-choice-zh">中</span>
-          </button>
-        </div>
-        <div class="role">
-          <div><span class="lang-en">Ph.D.</span><span class="lang-zh">博士</span></div>
-          <div class="affiliation-line">
-            <img class="bit-logo" src="photos/logo_01.svg" alt="Beijing Institute of Technology logo" />
-            <span class="lang-en">CSICD, School of Automation, Beijing Institute of Technology</span>
-            <span class="lang-zh">复杂系统智能控制与决策全国重点实验室，北京理工大学自动化学院</span>
+
+  <a class="skip-link" href="#main-content"><span class="lang-en">Skip to content</span><span class="lang-zh">跳到正文</span></a>
+
+  <!-- 顶部导航：修改栏目名称时，需要同时修改英文和中文两个 span -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Shengwu Zhao, home">
+        <span class="wordmark-mark">SZ</span>
+        <span class="wordmark-name"><span class="lang-en">Shengwu Zhao</span><span class="lang-zh">赵生武</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#research"><span class="lang-en">Research</span><span class="lang-zh">研究方向</span></a>
+        <a href="#publications"><span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></a>
+        <a href="#experience"><span class="lang-en">Experience</span><span class="lang-zh">学术经历</span></a>
+        <a href="#contact"><span class="lang-en">Contact</span><span class="lang-zh">联系方式</span></a>
+      </nav>
+      <button class="lang-toggle" type="button" id="languageToggle" aria-label="切换到中文">
+        <span class="lang-choice lang-choice-en">EN</span>
+        <span class="toggle-divider" aria-hidden="true"></span>
+        <span class="lang-choice lang-choice-zh">中文</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!--
+      首屏 / 个人简介
+      h1 是页面最大标题；hero-intro 是下面的个人研究简介。
+      首屏标题字号由 homepage_settings.css 的 --hero-title-size 控制。
+    -->
+    <section class="hero" id="top">
+      <div class="hero-contour" aria-hidden="true"></div>
+      <div class="page hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span><span class="lang-en">Underwater navigation researcher</span><span class="lang-zh">水下导航研究者</span></p>
+          <h1>
+            <span class="lang-en">Navigation where<br /><em>GNSS disappears</em></span>
+            <span class="lang-zh">当星辰沉默<br /><em>仍知身在何方</em></span>
+          </h1>
+          <p class="hero-intro lang-en">
+            I am <strong>Shengwu Zhao</strong>. My research focuses on geophysical field matching, inertial navigation, and multi-source fusion for long-duration, high-precision underwater positioning.
+          </p>
+          <p class="hero-intro lang-zh">
+            我是<strong>赵生武</strong>，研究聚焦于地球物理场匹配导航、惯性导航与多源融合导航，致力于实现水下长航时、高精度定位。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en" target="_blank" rel="noreferrer">
+              <span class="lang-en">Google Scholar</span><span class="lang-zh">谷歌学术</span><span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-primary" href="https://orcid.org/0000-0003-3459-3062" target="_blank" rel="noreferrer">
+              <span class="lang-en">ORCID</span><span class="lang-zh">ORCID</span><span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-secondary" href="mailto:zhaoshengwu@bit.edu.cn">
+              <span class="lang-en">Get in touch</span><span class="lang-zh">联系我</span>
+            </a>
           </div>
+          <!--
+            首屏数字：引用数会从 citations.json 自动计算，不需要手动填写。
+            “20”和“05”是成果、荣誉数量，今后新增内容时请手动同步修改。
+          -->
+          <dl class="hero-stats" aria-label="Academic profile at a glance">
+            <div>
+              <dt id="heroCitationTotal" data-citation-total>—</dt>
+              <dd><span class="lang-en">Citations</span><span class="lang-zh">论文引用</span></dd>
+            </div>
+            <div>
+              <dt>20</dt>
+              <dd><span class="lang-en">Research works</span><span class="lang-zh">研究成果</span></dd>
+            </div>
+            <div>
+              <dt>05</dt>
+              <dd><span class="lang-en">Honors</span><span class="lang-zh">荣誉奖励</span></dd>
+            </div>
+          </dl>
         </div>
-        <ul class="contact-line">
-          <li><a href="mailto:zhaoshengwu@bit.edu.cn">zhaoshengwu@bit.edu.cn</a></li>
-          <!-- <li>Beijing, China</li> -->
-          <li><a href="https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a></li>
-          <li><a href="https://orcid.org/0000-0003-3459-3062" target="_blank" rel="noreferrer">ORCID</a></li>
 
-        </ul>
-        <nav aria-label="Main navigation">
-          <ul class="nav">
-            <li><a href="#about"><span class="lang-en">About</span><span class="lang-zh">关于我</span></a></li>
-            <li><a href="#education"><span class="lang-en">Education</span><span class="lang-zh">教育经历</span></a></li>
-            <!-- <li><a href="#research">Research</a></li> -->
-            <li><a href="#publications"><span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></a></li>
-            <li><a href="#awards"><span class="lang-en">Awards</span><span class="lang-zh">荣誉奖励</span></a></li>
-            <li><a href="#contact"><span class="lang-en">Contact</span><span class="lang-zh">联系我</span></a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <div class="grid">
-      <!-- 左侧主内容：简介、研究方向、论文列表 -->
-      <main>
-        <section id="about">
-          <h2><span class="lang-en">About</span><span class="lang-zh">关于我</span></h2>
-          <p class="lang-en">
-            I am Shengwu Zhao. I received my Ph.D. from the <a href="https://ac.bit.edu.cn/" target="_blank" rel="noreferrer">School of Automation</a> at <a href="https://www.bit.edu.cn/" target="_blank" rel="noreferrer">Beijing Institute of Technology</a> in June 2026, majoring in Control Science and Engineering, with a focus on Navigation, Guidance and Control. I received my bachelor's degree from the <a href="https://xuteli.bit.edu.cn/" target="_blank" rel="noreferrer">School of Xuteli</a>, Beijing Institute of Technology, in July 2020.
-          </p>
-          <p class="lang-zh">
-            我是赵生武，2026年6月博士毕业于<a href="https://www.bit.edu.cn/" target="_blank" rel="noreferrer">北京理工大学</a><a href="https://ac.bit.edu.cn/" target="_blank" rel="noreferrer">自动化学院</a>，专业为控制科学与工程，导航制导与控制。2020年7月本科毕业于北京理工大学<a href="https://xuteli.bit.edu.cn/" target="_blank" rel="noreferrer">徐特立学院</a>。
-          </p>
-          <p class="lang-en">
-            My research interests include underwater geophysical field matching navigation, inertial navigation, and multi-source fusion navigation. I am dedicated to long-duration high-precision underwater positioning.
-          </p>
-          <p class="lang-zh">
-            我的研究方向为水下地球物理场匹配导航、惯性导航、多源融合导航等，致力于研究水下长航时高精度定位。
-          </p>
-        </section>
-
-        <section id="education">
-          <h2><span class="lang-en">Education</span><span class="lang-zh">教育经历</span></h2>
-          <div class="education-list">
-            <div class="education-item">
-              <div class="education-time">2020.9 - 2026.6</div>
-              <div>
-                <div class="education-degree"><span class="lang-en">Ph.D. in Engineering</span><span class="lang-zh">工学博士</span></div>
-                <div class="education-detail"><strong><span class="lang-en">Institution</span><span class="lang-zh">单位</span>:</strong> <span class="lang-en">Beijing Institute of Technology</span><span class="lang-zh">北京理工大学</span></div>
-                <div class="education-detail"><strong><span class="lang-en">School</span><span class="lang-zh">学院</span>:</strong> <span class="lang-en">School of Automation</span><span class="lang-zh">自动化学院</span></div>
-                <div class="education-detail"><strong><span class="lang-en">Advisor</span><span class="lang-zh">导师</span>:</strong> <span class="lang-en"><a href="https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm" target="_blank" rel="noreferrer">Prof. Zhihong Deng</a></span><span class="lang-zh"><a href="https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm" target="_blank" rel="noreferrer">邓志红教授</a></span></div>
-              </div>
-            </div>
-            <div class="education-item">
-              <div class="education-time">2016.6 - 2020.7</div>
-              <div>
-                <div class="education-degree"><span class="lang-en">Bachelor of Engineering</span><span class="lang-zh">工学学士</span></div>
-                <div class="education-detail"><strong><span class="lang-en">Institution</span><span class="lang-zh">单位</span>:</strong> <span class="lang-en">Beijing Institute of Technology</span><span class="lang-zh">北京理工大学</span></div>
-                <div class="education-detail"><strong><span class="lang-en">School</span><span class="lang-zh">学院</span>:</strong> <span class="lang-en">School of Xuteli</span><span class="lang-zh">徐特立学院</span></div>
-                <div class="education-detail"><strong><span class="lang-en">Advisor</span><span class="lang-zh">导师</span>:</strong> <span class="lang-en"><a href="https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm" target="_blank" rel="noreferrer">Prof. Xuan Xiao</a></span><span class="lang-zh"><a href="https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm" target="_blank" rel="noreferrer">肖烜教授</a></span></div>
-              </div>
-            </div>
+        <!-- 个人照片和单位信息：更换照片时修改 img 的 src 路径 -->
+        <aside class="profile-card" aria-label="Profile summary">
+          <div class="portrait-frame">
+            <img src="photos/portrait.jpg" alt="Shengwu Zhao wearing snow goggles" />
+            <span class="portrait-coordinate">BEIJING · CHINA</span>
           </div>
-        </section>
-
-        <!-- 研究方向标签：直接改 li 文本即可 -->
-        <!-- <section id="research">
-          <h2>Research Interests</h2>
-          <ul class="tags">
-            <li>Strapdown inertial navigation</li>
-            <li>Integrated navigation</li>
-            <li>Terrain matching navigation</li>
-            <li>Gravity matching navigation</li>
-            <li>Adaptability analysis</li>
-          </ul>
-        </section> -->
-
-        <!-- 论文列表：class="selected" 的条目会高亮期刊名 -->
-        <section id="publications">
-          <h2><span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></h2>
-          <!-- 引用数由 citations.json 提供，运行 scripts/update_citations.py 可从 Google Scholar 更新。 -->
-          <ol class="pub-list">
-            <li class="pub selected"><div><span class="paper-title">An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Zhaonan Jiao, Wenzhe Zhang, Zhihong Deng<sup>#</sup>.</span><span class="venue"><strong>IEEE Transactions on Geoscience and Remote Sensing</strong>, 2025, 63: 1-13.</span></div></li>
-            <li class="pub selected"><div><span class="paper-title">Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>, Qingzhe Wang, Wenzhe Zhang, Xun Gong.</span><span class="venue"><strong>IEEE/ASME Transactions on Mechatronics</strong>, 2025, 30(3): 2110-2121.</span></div></li>
-            <li class="pub selected"><div><span class="paper-title">Adaptive Point Mass Filter and Its Application in Terrain Matching Navigation.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>, Wenzhe Zhang, Yu Wang.</span><span class="venue"><strong>IEEE Transactions on Instrumentation and Measurement</strong>, 2025, 74: 1-13.</span></div></li>
-            <li class="pub selected"><div><span class="paper-title">Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Xuan Xiao<sup>#</sup>, Xuan Pang, Yu Wang, Zhihong Deng.</span><span class="venue"><strong>IEEE Transactions on Instrumentation and Measurement</strong>, 2024, 73: 1-13.</span></div></li>
-            <li class="pub"><div><span class="paper-title">An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Xuan Xiao<sup>#</sup>, Yu Wang, Zhihong Deng.</span><span class="venue">IEEE Sensors Journal, 2022, 23(2): 1423-1435.</span></div></li>
-            <li class="pub"><div><span class="paper-title">Gravity Matching Algorithm Based on Correlation Filter.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Xuan Xiao<sup>#</sup>, Zhihong Deng, Lei Shi.</span><span class="venue">IEEE Sensors Journal, 2022, 23(3): 2618-2629.</span></div></li>
-            <li class="pub"><div><span class="paper-title">Global Dynamic Path-Planning Algorithm in Gravity-Aided Inertial Navigation System.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Lei Shi, Wenzhe Zhang, Zhihong Deng<sup>#</sup>.</span><span class="venue">IET Signal Processing, 2021, 15(8): 510-520.</span></div></li>
-            <li class="pub"><div><span class="paper-title">The Analysis of Influencing Factors on Geophysical Field Matching.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Wenzhe Zhang, Yu Wang, Zhihong Deng<sup>#</sup>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 2024, 557-566.</span></div></li>
-            <li class="pub"><div><span class="paper-title">基于回溯导航策略的重力匹配方法.</span><span class="paper-authors"><strong>赵生武</strong>, 庞璇, 邓志红<sup>#</sup>.</span><span class="venue">2022 中国惯性技术研讨会, 2022, 1-10.</span></div></li>
-          </ol>
-        </section>
-
-        <!-- 合作论文：结构和上面的论文列表一致 -->
-        <section>
-          <details class="collapsible-publications">
-            <summary>
-              <h2><span class="lang-en">Collaborative Publications</span><span class="lang-zh">合作论文</span></h2>
-            </summary>
-            <ol class="pub-list">
-              <li class="pub"><div><span class="paper-title">Suitable Matching Area Selection Algorithm Based on Terrain Triangulation Model for Terrain-Aided Inertial Navigation.</span><span class="paper-authors">Zhaonan Jiao, <strong>Shengwu Zhao</strong>, Yu Wang, Zhihong Deng<sup>#</sup>.</span><span class="venue">IEEE Sensors Journal, 2025, 25(17): 33339-33349.</span></div></li>
-              <li class="pub"><div><span class="paper-title">基于DBCNN-SITAN的深度自适应重力匹配方法.</span><span class="paper-authors">张文喆, <strong>赵生武</strong>, 邓志红<sup>#</sup>.</span><span class="venue">中国惯性技术学报, 2026.7</span></div></li>
-              <li class="pub"><div><span class="paper-title">A Low-Order Gravity Disturbance Compensation Algorithm Based on Carrier Motion Constraints.</span><span class="paper-authors">Yu Wang, Wenzhe Zhang, <strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>.</span><span class="venue">IEEE Sensors Journal, 2025, 25(8): 13742-13752.</span></div></li>
-              <li class="pub"><div><span class="paper-title">A Gravity Matching Adaptability Analysis Method based on Gravity Directional Characteristics.</span><span class="paper-authors">Wenzhe Zhang, Yu Wang, <strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>.</span><span class="venue">IEEE Sensors Journal, 2026, 1-1.</span></div></li>
-              <li class="pub"><div><span class="paper-title">A Gravity-Aided Navigation Matching Algorithm Based on Triangulation.</span><span class="paper-authors">Yu Wang, Zhihong Deng<sup>#</sup>, Peiyuan Zhang, Bo Wang, <strong>Shengwu Zhao</strong>.</span><span class="venue">IEEE Sensors Journal, 2024, 24(21): 34851-34861.</span></div></li>
-              <li class="pub"><div><span class="paper-title">Multi-AUV Cooperative Navigation with Out-of-Sequence Measurement Compensation and Deep Learning-Based Process Noise Modeling.</span><span class="paper-authors">Kewei Yu, <strong>Shengwu Zhao</strong>, Zhaonan Jiao, Zhihong Deng<sup>#</sup>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 2026, 1-10.</span></div></li>
-              <li class="pub"><div><span class="paper-title">基于深度学习的递进式水下地形匹配定位方法.</span><span class="paper-authors">孙晨睿, <strong>赵生武</strong>, 邓志红<sup>#</sup>.</span><span class="venue">2025 中国惯性技术研讨会, 2025, 368-376.</span></div></li>
-              <li class="pub"><div><span class="paper-title">Bathymetric SLAM Approach Using Multibeam Sonar Toward Polar Region.</span><span class="paper-authors">Zhaonan Jiao, Xinshuo Chen, <strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 2024, 568-577.</span></div></li>
-              <li class="pub"><div><span class="paper-title">Research on Polar Navigation Problem of North-Seeking Strapdown Inertial Navigation System.</span><span class="paper-authors">Xinshuo Chen, Zhaonan Jiao, <strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 2024, 509-519.</span></div></li>
-              <li class="pub"><div><span class="paper-title">The Method for Selecting Adaptation Zones of Terrain Matching Based on Arctic Seabed Terrain Features.</span><span class="paper-authors">Qingzhe Wang, Xun Gong, Xiaoyong Bai, Zhihong Deng<sup>#</sup>, <strong>Shengwu Zhao</strong>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 2024, 592-601.</span></div></li>
-              <li class="pub"><div><span class="paper-title">An Improved ICCP Gravity Matching Algorithm Based on Mahalanobis Distance.</span><span class="paper-authors">Yu Wang, Zhihong Deng<sup>#</sup>, Wenzhe Zhang, <strong>Shengwu Zhao</strong>.</span><span class="venue">2021 40th Chinese Control Conference (CCC), 2021, 3503-3508.</span></div></li>
-            </ol>
-          </details>
-          <p class="pub-note">
-            <span class="lang-en"><sup>#</sup> Corresponding author. <sup>*</sup> Co-first author.</span>
-            <span class="lang-zh"><sup>#</sup> 通讯作者。<sup>*</sup> 共同一作。</span>
-          </p>
-        </section>
-      </main>
-
-      <!-- 右侧栏：联系方式和奖励，适合放简短信息 -->
-      <aside>
-        <div class="side-panel" id="contact">
-          <h2><span class="lang-en">Contact</span><span class="lang-zh">联系方式</span></h2>
-          <ul class="compact-list">
-            <li><strong><span class="lang-en">Email</span><span class="lang-zh">邮箱</span></strong><br /><a href="mailto:zhaoshengwu@bit.edu.cn">zhaoshengwu@bit.edu.cn</a></li>
-            <!-- <li><strong><span class="lang-en">Phone</span><span class="lang-zh">电话</span></strong><br />+86 188-1169-3687</li> -->
-            <li><strong><span class="lang-en">Address</span><span class="lang-zh">地址</span></strong><br /><span class="lang-en">School of Automation, Beijing Institute of Technology, Beijing, 100081, P.R. China</span><span class="lang-zh">北京市海淀区中关村南大街5号，北京理工大学自动化学院，100081</span></li>
-            <li>
-              <strong><span class="lang-en">Google Scholar</span><span class="lang-zh">谷歌学术</span></strong><br />
-              <span class="scholar-contact-line">
-                <a href="https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer"><span class="lang-en">Profile</span><span class="lang-zh">主页</span></a>
-                <span id="scholarCitationTotal"></span>
+          <div class="profile-card-body">
+            <div class="identity-row">
+              <div>
+                <p class="profile-name"><span class="lang-en">Shengwu Zhao</span><span class="lang-zh">赵生武</span></p>
+                <p class="profile-degree"><span class="lang-en">Postdoctor</span><span class="lang-zh">博士后</span></p>
+              </div>
+              <img class="bit-logo" src="photos/logo_01.svg" alt="Beijing Institute of Technology logo" />
+            </div>
+            <p class="profile-affiliation">
+              <span class="lang-en">School of Automation<br />Beijing Institute of Technology<br />Beijing, China</span>
+              <span class="lang-zh">北京理工大学自动化学院，北京，中国</span>
+            </p>
+            <!-- 位置模块：href 是地图链接；文字可直接修改，整块仍属于右侧个人卡片的一部分。 -->
+            <a class="profile-location" href="https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AD%A6%E9%99%A2&amp;city=%E5%8C%97%E4%BA%AC&amp;view=map&amp;callnative=0" target="_blank" rel="noreferrer" aria-label="Open the School of Automation, Beijing Institute of Technology in Amap">
+              <span class="location-pin" aria-hidden="true">⌖</span>
+              <span class="location-copy">
+                <strong><span class="lang-en">School of Automation · BIT</span><span class="lang-zh">北京理工大学 · 自动化学院</span></strong>
+                <small><span class="lang-en">Haidian, Beijing · Open map</span><span class="lang-zh">北京海淀 · 打开地图定位</span></small>
               </span>
-            </li>
-          </ul>
+              <span class="location-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!--
+      研究方向
+      每一个 <article class="research-card">...</article> 表示一张研究卡片。
+      如需修改研究方向，只改对应卡片里的 h3（标题）和 p（说明）即可。
+    -->
+    <section class="section page" id="research">
+      <div class="section-heading">
+        <div>
+          <p class="section-index">01 — <span class="lang-en">Research</span><span class="lang-zh">研究方向</span></p>
+          <h2><span class="lang-en">Positioning beyond GNSS</span><span class="lang-zh">面向无卫星信号环境的定位</span></h2>
+        </div>
+        <p class="section-lead lang-en">Construct a stable and reliable position reference in GNSS-denied environments by leveraging environmental field information and underwater measurements. </p>
+        <p class="section-lead lang-zh">利用环境场信息与水下测量，在无卫星信号环境中构建稳定、可靠的位置基准。</p>
+      </div>
+      <div class="research-grid ">
+        <!-- featured-research-card 表示深色高亮卡片，可移动到其他研究方向 -->
+        <article class="research-card">
+          <span class="research-number">01</span>
+          <h3><span class="lang-en">Inertial navigation</span><span class="lang-zh">惯性导航</span></h3>
+          <!-- 惯性导航图片：替换 photos/research-01.png 即可更新图片 -->
+          <figure class="research-card-figure">
+            <object class="research-image-object" data="photos/research-01.png" type="image/png" aria-label="Inertial navigation research image">
+              <div class="research-image-placeholder"><strong>IMAGE 01</strong><span>photos/research-01.png</span></div>
+            </object>
+          </figure>
+          <p class="lang-en">Error modeling, filtering, and motion-constraint strategies that sustain navigation accuracy over long missions.</p>
+          <p class="lang-zh">通过误差建模、滤波与运动约束，提升长航时任务中的导航精度。</p>
+          <span class="research-tag"><span class="lang-en">INS · Filtering</span><span class="lang-zh">惯导 · 滤波</span></span>
+        </article>
+        <article class="research-card featured-research-card">
+          <span class="research-number">02</span>
+          <h3><span class="lang-en">Geophysical field matching</span><span class="lang-zh">地球物理场匹配导航</span></h3>
+          <!-- 地球物理场匹配图片：替换 photos/research-02.png 即可更新图片 -->
+          <figure class="research-card-figure">
+            <object class="research-image-object" data="photos/research-02.png" type="image/png" aria-label="Geophysical field matching research image">
+              <div class="research-image-placeholder"><strong>IMAGE 02</strong><span>photos/research-02.png</span></div>
+            </object>
+          </figure>
+          <p class="lang-en">Terrain and gravity matching methods, adaptability analysis, and matching-area selection for robust underwater navigation.</p>
+          <p class="lang-zh">面向水下导航的地形与重力匹配方法、适配性分析及适配区选择。</p>
+          <span class="research-tag"><span class="lang-en">Terrain · Gravity</span><span class="lang-zh">地形 · 重力</span></span>
+        </article>
+        <article class="research-card">
+          <span class="research-number">03</span>
+          <h3><span class="lang-en">Multi-source fusion</span><span class="lang-zh">多源融合导航</span></h3>
+          <!-- 多源融合图片：替换 photos/research-03.png 即可更新图片 -->
+          <figure class="research-card-figure">
+            <object class="research-image-object" data="photos/research-03.png" type="image/png" aria-label="Multi-source fusion research image">
+              <div class="research-image-placeholder"><strong>IMAGE 03</strong><span>photos/research-03.png</span></div>
+            </object>
+          </figure>
+          <p class="lang-en">Integrated estimation using complementary sensors and environmental observations for dependable localization.</p>
+          <p class="lang-zh">融合互补传感器与环境观测信息，实现更加可靠的水下定位。</p>
+          <span class="research-tag"><span class="lang-en">Fusion · Estimation</span><span class="lang-zh">融合 · 估计</span></span>
+        </article>
+      </div>
+    </section>
+
+    <!-- 单栏内容区域：论文、教育经历、荣誉和联系方式依次向下排列 -->
+    <div class="page content-grid">
+      <!--
+        论文列表维护说明
+        1. 每个 <li class="pub">...</li> 代表一篇论文。
+        2. paper-title = 论文标题；paper-authors = 作者；venue = 期刊信息。
+        3. selected 表示当前正文展示的第一作者期刊论文，会显示“Journal / 期刊”标签。
+        4. 引用次数由 homepage_citations.js 根据论文标题自动匹配。
+           因此修改标题时，也要同步检查 citations.json 中的 title。
+        5. 论文题目字号由 homepage_settings.css 的 --paper-title-size 控制。
+      -->
+      <section class="section publications-section" id="publications">
+        <div class="section-heading publication-heading">
+          <div>
+            <p class="section-index">02 — <span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></p>
+            <h2><span class="lang-en">Selected work</span><span class="lang-zh">代表性成果</span></h2>
+          </div>
+          <a class="text-link" href="https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en" target="_blank" rel="noreferrer"><span class="lang-en">Full profile</span><span class="lang-zh">完整列表</span> ↗</a>
         </div>
 
-        <div class="side-panel" id="awards">
-          <h2><span class="lang-en">Awards</span><span class="lang-zh">奖励荣誉</span></h2>
-          <ul class="compact-list">
-            <li><span class="year">2026</span><span class="lang-en">Outstanding Graduate of Beijing</span><span class="lang-zh">北京市优秀毕业生</span></li>
-            <li><span class="year">2025</span><span class="lang-en">Excellent Doctoral Dissertation Cultivation Fund, BIT</span><span class="lang-zh">北京理工大学优秀博士学位论文培育基金</span></li>
-            <li><span class="year">2024</span><span class="lang-en">National Scholarship for Graduate Students</span><span class="lang-zh">研究生国家奖学金</span></li>
-            <li><span class="year">2022</span><span class="lang-en">First Prize of Technical Invention Award, CSIT</span><span class="lang-zh">中国惯性技术学会技术发明一等奖</span></li>
-            <li><span class="year">2021</span><span class="lang-en">First Prize, Asia and Pacific Mathematical Contest in Modeling</span><span class="lang-zh">亚太地区大学生数学建模竞赛一等奖</span></li>
-          </ul>
-        </div>
+        <!--
+          下面只展示第一作者期刊论文。每篇都预留了图片和 DOI/URL 位置。
+          每篇网址已经写成可点击的 <a class="paper-link"> 外部链接。
+          今后更新网址时，只需要修改 href="..." 引号里面的地址。
+        -->
+        <ol class="pub-list featured-pub-list">
+          <li class="pub selected">
+            <div class="pub-index">01</div>
+            <figure class="paper-figure"><object class="paper-image-object" data="photos/publication-01.png" type="image/png" aria-label="Figure for selected publication 01"><div class="paper-figure-placeholder"><span>FIG. 01</span><strong><span class="lang-en">Paper figure</span><span class="lang-zh">论文配图</span></strong></div></object><figcaption> </figcaption></figure>
+            <div class="pub-content"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Zhaonan Jiao, Wenzhe Zhang, Zhihong Deng<sup>#</sup>.</span><span class="venue"><strong>IEEE Transactions on Geoscience and Remote Sensing</strong>, 63: 1–13.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/11124279/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div>
+          </li>
+          <li class="pub selected">
+            <div class="pub-index">02</div>
+            <figure class="paper-figure"><object class="paper-image-object" data="photos/publication-02.png" type="image/png" aria-label="Figure for selected publication 02"><div class="paper-figure-placeholder"><span>FIG. 02</span><strong><span class="lang-en">Paper figure</span><span class="lang-zh">论文配图</span></strong></div></object><figcaption> </figcaption></figure>
+            <div class="pub-content"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">Terrain Matching Algorithm Based on Trajectory Reconstruction and Correlation Analysis of Sliding Measurement Sequence.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>, Qingzhe Wang, Wenzhe Zhang, Xun Gong.</span><span class="venue"><strong>IEEE/ASME Transactions on Mechatronics</strong>, 30(3): 2110–2121.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/10632789/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div>
+          </li>
+          <li class="pub selected">
+            <div class="pub-index">03</div>
+            <figure class="paper-figure"><object class="paper-image-object" data="photos/publication-03.png" type="image/png" aria-label="Figure for selected publication 03"><div class="paper-figure-placeholder"><span>FIG. 03</span><strong><span class="lang-en">Paper figure</span><span class="lang-zh">论文配图</span></strong></div></object><figcaption> </figcaption></figure>
+            <div class="pub-content"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">Adaptive Point Mass Filter and Its Application in Terrain Matching Navigation.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>, Wenzhe Zhang, Yu Wang.</span><span class="venue"><strong>IEEE Transactions on Instrumentation and Measurement</strong>, 74: 1–13.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/10912726/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div>
+          </li>
+          <li class="pub selected">
+            <div class="pub-index">04</div>
+            <figure class="paper-figure"><object class="paper-image-object" data="photos/publication-04.png" type="image/png" aria-label="Figure for selected publication 04"><div class="paper-figure-placeholder"><span>FIG. 04</span><strong><span class="lang-en">Paper figure</span><span class="lang-zh">论文配图</span></strong></div></object><figcaption> </figcaption></figure>
+            <div class="pub-content"><div class="pub-meta"><span class="pub-year">2024</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Xuan Xiao, Xuan Pang, Yu Wang, Zhihong Deng<sup>#</sup>.</span><span class="venue"><strong>IEEE Transactions on Instrumentation and Measurement</strong>, 73: 1–13.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/10381855/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div>
+          </li>
+          <li class="pub selected">
+            <div class="pub-index">05</div>
+            <figure class="paper-figure"><object class="paper-image-object" data="photos/publication-05.png" type="image/png" aria-label="Figure for selected publication 05"><div class="paper-figure-placeholder"><span>FIG. 05</span><strong><span class="lang-en">Paper figure</span><span class="lang-zh">论文配图</span></strong></div></object><figcaption> </figcaption></figure>
+            <div class="pub-content"><div class="pub-meta"><span class="pub-year">2022</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Xuan Xiao<sup>#</sup>, Yu Wang, Zhihong Deng.</span><span class="venue"><strong>IEEE Sensors Journal</strong>, 23(2): 1423–1435.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/9979757/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div>
+          </li>
+          <li class="pub selected">
+            <div class="pub-index">06</div>
+            <figure class="paper-figure"><object class="paper-image-object" data="photos/publication-06.png" type="image/png" aria-label="Figure for selected publication 06"><div class="paper-figure-placeholder"><span>FIG. 06</span><strong><span class="lang-en">Paper figure</span><span class="lang-zh">论文配图</span></strong></div></object><figcaption> </figcaption></figure>
+            <div class="pub-content"><div class="pub-meta"><span class="pub-year">2022</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">Gravity Matching Algorithm Based on Correlation Filter.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Xuan Xiao<sup>#</sup>, Zhihong Deng, Lei Shi.</span><span class="venue"><strong>IEEE Sensors Journal</strong>, 23(3): 2618–2629.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/9997486/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div>
+          </li>
+          <li class="pub selected">
+            <div class="pub-index">07</div>
+            <figure class="paper-figure"><object class="paper-image-object" data="photos/publication-07.png" type="image/png" aria-label="Figure for selected publication 07"><div class="paper-figure-placeholder"><span>FIG. 07</span><strong><span class="lang-en">Paper figure</span><span class="lang-zh">论文配图</span></strong></div></object><figcaption> </figcaption></figure>
+            <div class="pub-content"><div class="pub-meta"><span class="pub-year">2021</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">Global Dynamic Path-Planning Algorithm in Gravity-Aided Inertial Navigation System.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Lei Shi, Wenzhe Zhang, Zhihong Deng<sup>#</sup>.</span><span class="venue"><strong>IET Signal Processing</strong>, 15(8): 510–520.</span><div class="paper-links"><a class="paper-link" href="https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/sil2.12056" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div>
+          </li>
+        </ol>
 
+        <!-- 其他第一作者论文：结构与上方一致，但不显示图片 -->
+        <details class="collapsible-publications">
+          <summary><span><span class="lang-en">Other first-author publications</span><span class="lang-zh">其他第一作者论文</span></span><span class="summary-count">02</span></summary>
+          <ol class="pub-list compact-pub-list" start="8">
+            <li class="pub"><div class="pub-index">08</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2024</span><span class="pub-label conference"><span class="lang-en">Conference</span><span class="lang-zh">会议</span></span></div><span class="paper-title">The Analysis of Influencing Factors on Geophysical Field Matching.</span><span class="paper-authors"><strong>Shengwu Zhao</strong>, Wenzhe Zhang, Yu Wang, Zhihong Deng<sup>#</sup>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 557–566.</span><div class="paper-links"><a class="paper-link" href="https://link.springer.com/10.1007/978-981-96-2264-1_53" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">09</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2022</span><span class="pub-label conference"><span class="lang-en">Conference</span><span class="lang-zh">会议</span></span></div><span class="paper-title">基于回溯导航策略的重力匹配方法.</span><span class="paper-authors"><strong>赵生武</strong>, 庞璇, 邓志红<sup>#</sup>.</span><span class="venue">2022 中国惯性技术研讨会, 1–10.</span><div class="paper-links"><a class="paper-link" href="https://scholar.google.com/scholar?q=%E5%9F%BA%E4%BA%8E%E5%9B%9E%E6%BA%AF%E5%AF%BC%E8%88%AA%E7%AD%96%E7%95%A5%E7%9A%84%E9%87%8D%E5%8A%9B%E5%8C%B9%E9%85%8D%E6%96%B9%E6%B3%95" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+          </ol>
+        </details>
+
+        <details class="collapsible-publications">
+          <summary><span><span class="lang-en">Collaborative publications</span><span class="lang-zh">合作论文</span></span><span class="summary-count">11</span></summary>
+          <ol class="pub-list compact-pub-list">
+            <li class="pub"><div class="pub-index">01</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">Suitable Matching Area Selection Algorithm Based on Terrain Triangulation Model for Terrain-Aided Inertial Navigation.</span><span class="paper-authors">Zhaonan Jiao, <strong>Shengwu Zhao</strong>, Yu Wang, Zhihong Deng<sup>#</sup>.</span><span class="venue">IEEE Sensors Journal, 25(17): 33339–33349.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/11106341/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">02</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2026</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">基于DBCNN-SITAN的深度自适应重力匹配方法.</span><span class="paper-authors">张文喆, <strong>赵生武</strong>, 邓志红<sup>#</sup>.</span><span class="venue">中国惯性技术学报, 2026.7.</span><div class="paper-links"><a class="paper-link" href="https://kns.cnki.net/kcms2/article/abstract?v=KXYaOrH3lTlFxVzC05Dq5EH9-5Ly-0iYVOdKbv2F4piYHtDBUioy0g0z4kf4KYNUPi6SDtLq9AQxy1CmjLEIAWn2sRy2_rgaiLKFBCgB1Lkz0y1WHo6V_6T2xEbq2lw9mjVQfKnWs_GWWep9HAt9JdPhfKRN5PqzSpUe_AlolDmk1IGn9JxsNQ==&uniplatform=NZKPT&language=CHS" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">03</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">A Low-Order Gravity Disturbance Compensation Algorithm Based on Carrier Motion Constraints.</span><span class="paper-authors">Yu Wang, Wenzhe Zhang, <strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>.</span><span class="venue">IEEE Sensors Journal, 25(8): 13742–13752.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/10925507/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">04</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2026</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">A Gravity Matching Adaptability Analysis Method based on Gravity Directional Characteristics.</span><span class="paper-authors">Wenzhe Zhang, Yu Wang, <strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>.</span><span class="venue">IEEE Sensors Journal, 1–1.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/11410023/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">05</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2024</span><span class="pub-label"><span class="lang-en">Journal</span><span class="lang-zh">期刊</span></span></div><span class="paper-title">A Gravity-Aided Navigation Matching Algorithm Based on Triangulation.</span><span class="paper-authors">Yu Wang, Zhihong Deng<sup>#</sup>, Peiyuan Zhang, Bo Wang, <strong>Shengwu Zhao</strong>.</span><span class="venue">IEEE Sensors Journal, 24(21): 34851–34861.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/10666986/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">06</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2026</span><span class="pub-label conference"><span class="lang-en">Conference</span><span class="lang-zh">会议</span></span></div><span class="paper-title">Multi-AUV Cooperative Navigation with Out-of-Sequence Measurement Compensation and Deep Learning-Based Process Noise Modeling.</span><span class="paper-authors">Kewei Yu, <strong>Shengwu Zhao</strong>, Zhaonan Jiao, Zhihong Deng<sup>#</sup>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 1–10.</span><div class="paper-links"><a class="paper-link" href="https://scholar.google.com/scholar?q=Multi-AUV+Cooperative+Navigation+Out-of-Sequence+Measurement+Compensation" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">07</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2025</span><span class="pub-label conference"><span class="lang-en">Conference</span><span class="lang-zh">会议</span></span></div><span class="paper-title">基于深度学习的递进式水下地形匹配定位方法.</span><span class="paper-authors">孙晨睿, <strong>赵生武</strong>, 邓志红<sup>#</sup>.</span><span class="venue">2025 中国惯性技术研讨会, 368–376.</span><div class="paper-links"><a class="paper-link" href="https://kns.cnki.net/kcms2/article/abstract?v=KXYaOrH3lTmSGrxnHgEs_SSQIcRIzq8vEVq457qFho3vgAYgQPrNrrlA0FxIZY9jDRk3UEYA6YjWCG3PsGgcgBEOkSYRZPN0fatEFrSe0I-5DM936J-V3i_n5xvE-rRbhSMAsXkZDaK8VrBdp4cnZ3FY3aztCSGQ_fQR3GRX0vYhAPnt7qGGquN6gEgiS2_x&uniplatform=NZKPT&language=CHS" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">08</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2024</span><span class="pub-label conference"><span class="lang-en">Conference</span><span class="lang-zh">会议</span></span></div><span class="paper-title">Bathymetric SLAM Approach Using Multibeam Sonar Toward Polar Region.</span><span class="paper-authors">Zhaonan Jiao, Xinshuo Chen, <strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 568–577.</span><div class="paper-links"><a class="paper-link" href="https://link.springer.com/10.1007/978-981-96-2212-2_57" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">09</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2024</span><span class="pub-label conference"><span class="lang-en">Conference</span><span class="lang-zh">会议</span></span></div><span class="paper-title">Research on Polar Navigation Problem of North-Seeking Strapdown Inertial Navigation System.</span><span class="paper-authors">Xinshuo Chen, Zhaonan Jiao, <strong>Shengwu Zhao</strong>, Zhihong Deng<sup>#</sup>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 509–519.</span><div class="paper-links"><a class="paper-link" href="https://link.springer.com/10.1007/978-981-96-2256-6_51" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">10</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2024</span><span class="pub-label conference"><span class="lang-en">Conference</span><span class="lang-zh">会议</span></span></div><span class="paper-title">The Method for Selecting Adaptation Zones of Terrain Matching Based on Arctic Seabed Terrain Features.</span><span class="paper-authors">Qingzhe Wang, Xun Gong, Xiaoyong Bai, Zhihong Deng<sup>#</sup>, <strong>Shengwu Zhao</strong>.</span><span class="venue">International Conference on Guidance, Navigation and Control, 592–601.</span><div class="paper-links"><a class="paper-link" href="https://link.springer.com/10.1007/978-981-96-2264-1_57" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+            <li class="pub"><div class="pub-index">11</div><div class="pub-content"><div class="pub-meta"><span class="pub-year">2021</span><span class="pub-label conference"><span class="lang-en">Conference</span><span class="lang-zh">会议</span></span></div><span class="paper-title">An Improved ICCP Gravity Matching Algorithm Based on Mahalanobis Distance.</span><span class="paper-authors">Yu Wang, Zhihong Deng<sup>#</sup>, Wenzhe Zhang, <strong>Shengwu Zhao</strong>.</span><span class="venue">40th Chinese Control Conference (CCC), 3503–3508.</span><div class="paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/9550017/" target="_blank" rel="noreferrer">Paper URL ↗</a></div></div></li>
+          </ol>
+        </details>
+        <p class="pub-note"><sup>#</sup> <span class="lang-en">Corresponding author.</span><span class="lang-zh">通讯作者。</span> <sup>*</sup> <span class="lang-en">Co-first author.</span><span class="lang-zh">共同一作。</span></p>
+      </section>
+
+      <!-- 单栏中的教育经历、荣誉和联系方式区域 -->
+      <aside class="side-column" id="experience">
+        <!-- 教育经历：复制一个 timeline-item 可以新增一段经历 -->
+        <section class="side-section">
+          <p class="section-index">03 — <span class="lang-en">Education</span><span class="lang-zh">教育经历</span></p>
+          <h2><span class="lang-en">Academic path</span><span class="lang-zh">学术经历</span></h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <p class="timeline-date">2026.07 — present</p>
+              <h3><span class="lang-en">Postdoctor</span><span class="lang-zh">博士后</span></h3>
+              <p><span class="lang-en">Control Science and Engineering<br />School of Automation, Beijing Institute of Technology</span><span class="lang-zh">控制科学与工程<br />北京理工大学自动化学院</span></p>
+              <p class="advisor"><span class="lang-en">Advisor:</span><span class="lang-zh">导师：</span> <a href="https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm" target="_blank" rel="noreferrer"><span class="lang-en">Prof. Zhihong Deng</span><span class="lang-zh">邓志红教授</span></a></p>
+            </article>
+            <article class="timeline-item">
+              <p class="timeline-date">2020.09 — 2026.06</p>
+              <h3><span class="lang-en">Ph.D. in Engineering</span><span class="lang-zh">工学博士</span></h3>
+              <p><span class="lang-en">Control Science and Engineering<br />School of Automation, Beijing Institute of Technology</span><span class="lang-zh">控制科学与工程<br />北京理工大学自动化学院</span></p>
+              <p class="advisor"><span class="lang-en">Advisor:</span><span class="lang-zh">导师：</span> <a href="https://ac.bit.edu.cn/szdw/jsml/dhzdykzyjs1/cfe3a3db284640d28accd1199642f810.htm" target="_blank" rel="noreferrer"><span class="lang-en">Prof. Zhihong Deng</span><span class="lang-zh">邓志红教授</span></a></p>
+            </article>
+            <article class="timeline-item">
+              <p class="timeline-date">2016.06 — 2020.07</p>
+              <h3><span class="lang-en">B.Eng. in Engineering</span><span class="lang-zh">工学学士</span></h3>
+              <p><span class="lang-en">Automation<br />School of Xuteli, Beijing Institute of Technology</span><span class="lang-zh">自动化<br />北京理工大学徐特立学院 </span></p>
+              <p class="advisor"><span class="lang-en">Advisor:</span><span class="lang-zh">导师：</span> <a href="https://ac.bit.edu.cn/szdw/jsml/dzjsjxyjs1/8b1a8d002e9b4f58b7957da1148e6555.htm" target="_blank" rel="noreferrer"><span class="lang-en">Prof. Xuan Xiao</span><span class="lang-zh">肖烜教授</span></a></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- 荣誉奖励：每一个 li 是一项奖励；左侧 year 是年份 -->
+        <section class="side-section" id="awards">
+          <p class="section-index">04 — <span class="lang-en">Recognition</span><span class="lang-zh">荣誉奖励</span></p>
+          <h2><span class="lang-en">Selected honors</span><span class="lang-zh">代表性荣誉</span></h2>
+          <ul class="award-list">
+            <li><span class="year">2026</span><span><span class="lang-en">Outstanding Graduate of Beijing</span><span class="lang-zh">北京市优秀毕业生</span></span></li>
+            <li><span class="year">2025</span><span><span class="lang-en">Excellent Doctoral Dissertation Cultivation Fund, BIT</span><span class="lang-zh">北京理工大学优秀博士学位论文培育基金</span></span></li>
+            <li><span class="year">2024</span><span><span class="lang-en">National Scholarship for Graduate Students</span><span class="lang-zh">研究生国家奖学金</span></span></li>
+            <li><span class="year">2022</span><span><span class="lang-en">First Prize of Technical Invention Award, CSIT</span><span class="lang-zh">中国惯性技术学会技术发明一等奖</span></span></li>
+            <li><span class="year">2021</span><span><span class="lang-en">First Prize, Asia and Pacific Mathematical Contest in Modeling</span><span class="lang-zh">亚太地区大学生数学建模竞赛一等奖</span></span></li>
+          </ul>
+        </section>
+
+        <!-- 联系方式：邮箱需要同时修改显示文字和 href="mailto:..." -->
+        <section class="contact-card" id="contact">
+          <p class="contact-kicker"><span class="lang-en">Let’s connect</span><span class="lang-zh">保持联系</span></p>
+          <h2><span class="lang-en">Interested in underwater positioning?</span><span class="lang-zh">关注水下高精度定位？</span></h2>
+          <p class="contact-intro lang-en">I welcome conversations around navigation, sensor fusion, and geophysical field matching. You can reach me at the following email or address.</p>
+          <p class="contact-intro lang-zh">欢迎围绕导航、信息融合与地球物理场匹配开展学术交流。你可以通过以下邮箱或地址联系我。</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="contact-label"><span class="lang-en">Email</span><span class="lang-zh">邮箱</span></span>
+              <a class="contact-email" href="mailto:zhaoshengwu@bit.edu.cn">zhaoshengwu@bit.edu.cn <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-label"><span class="lang-en">Address</span><span class="lang-zh">地址</span></span>
+              <p class="contact-address"><span class="lang-en">No. 5 Zhongguancun South Street, Haidian District, Beijing<br />School of Automation, Beijing Institute of Technology, 100081</span><span class="lang-zh">北京市海淀区中关村南大街5号<br />北京理工大学自动化学院，100081</span></p>
+            </div>
+          </div>
+        </section>
       </aside>
     </div>
+  </main>
 
-    <footer class="footer">
-      <span class="lang-en">Last updated: June 24, 2026. <span id="citationUpdatedEn"></span> Copyright © 2026 Shengwu Zhao.</span><span class="lang-zh">最后更新：2026年6月24日。<span id="citationUpdatedZh"></span> 版权所有 © 2026 赵生武。</span>
-    </footer>
-  </div>
+  <!-- 页脚：更新年份或最后更新时间时在这里修改 -->
+  <footer class="site-footer">
+    <div class="page footer-inner">
+      <div>
+        <p class="footer-name"><span class="lang-en">Shengwu Zhao</span><span class="lang-zh">赵生武</span></p>
+        <p><span class="lang-en">Beijing Institute of Technology · Beijing, China</span><span class="lang-zh">北京理工大学 · 中国北京</span></p>
+      </div>
+      <div class="footer-meta">
+        <p><span class="lang-en">Last updated August 2026</span><span class="lang-zh">最后更新于 2026 年 8 月</span></p>
+        <p><span id="citationUpdatedEn" class="lang-en"></span><span id="citationUpdatedZh" class="lang-zh"></span></p>
+        <p>© 2026 Shengwu Zhao</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 功能脚本：一般不需要修改；分别负责中英文切换和引用数显示 -->
   <script src="homepage_language.js"></script>
   <script src="homepage_citations.js"></script>
 </body>

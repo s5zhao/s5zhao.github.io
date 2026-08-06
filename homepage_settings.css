@@ -1,45 +1,83 @@
-/* 参数设置文件
-   这个文件只放“外观参数”，不放论文、简介等学术内容。
-   常用修改：
-   1. 改 --accent 可以换链接和主题色。
-   2. 改 --max-width 可以调整页面整体宽度。
-   3. 改 --portrait-size 可以调整头像大小。
-   4. 改 --sidebar-width 可以调整右侧栏宽度。
+/* ==========================================================================
+   主页外观设置（最适合直接修改的文件）
+   ==========================================================================
+
+   如果你只想调整颜色、字体大小、页面宽度，请改这个文件即可，
+   一般不需要修改 homepage_style.css。
+
+   CSS 变量的写法：--变量名称: 数值;
+   例如把正文字号从 17px 改成 18px：
+   --body-font-size: 18px;
+
+   修改颜色时可以直接替换 # 后面的六位颜色代码。
 */
 
 :root {
-  /* 颜色参数 */
-  --ink: #1f2328;
-  --muted: #68727d;
-  --line: #d8dee4;
-  --panel: #f6f8fa;
-  --accent: #0969da;
-  --accent-soft: #ddf4ff;
-  --citation-bg: #eaf3ff;
-  --citation-line: #b6d6f8;
-  --citation-text: #1f2328;
-  --citation-count-bg: #b7dbff;
-  --citation-count-text: #1f2328;
-  --paper-title: #003366;
-  --page-bg: #ffffff;
-  --button-bg: #ffffff;
-  --lang-active-bg: #4f759d;
-  --lang-active-text: #ffffff;
-  --selected-venue: #cf222e;
+  /* ------------------------------------------------------------------------
+     1. 主要颜色
+     ------------------------------------------------------------------------ */
 
-  /* 尺寸参数 */
-  --max-width: 1080px;
-  --sidebar-width: 300px;
-  --portrait-size: 104px;
-  --portrait-mobile-size: 86px;
-  --page-padding: 28px 24px 42px;
-  --page-mobile-padding: 18px 16px 34px;
-  --section-gap: 28px;
-  --grid-gap: 28px;
+  --ink: #102a31;          /* 普通正文颜色：深灰绿色 */
+  --ink-strong: #082f3d;   /* 标题和深色背景：深海蓝 */
+  --muted: #617278;        /* 作者、期刊、说明文字：中灰色 */
+  --faint: #7f9499;        /* 年份、编号等辅助文字（已适当加深） */
 
-  /* 字体参数 */
-  --body-font-size: 15.5px;
-  --body-line-height: 1.58;
-  --name-font-size: 1.82rem;
-  --name-mobile-font-size: 1.55rem;
+  --paper: #f8f6ef;        /* 整个页面的米白背景 */
+  --paper-deep: #f0eee5;   /* 稍深的米白色备用背景 */
+  --white: #fffefa;        /* 卡片背景和深色区域中的白色文字 */
+  --line: #cdd6d2;         /* 分隔线颜色 */
+
+  --sea: #0b6871;          /* 主题色：链接、编号、强调信息 */
+  --sea-dark: #074e57;     /* 主题色的深色版本 */
+  --sea-light: #cfe7e2;    /* 主题色的浅色版本 */
+  --signal: #e6b85c;       /* 金色强调：首屏关键词、按钮 */
+  --coral: #c85b47;        /* 红色强调：代表作标签、时间点 */
+  --journal-label-bg: #cfe7e2;       /* Journal 标签背景：青绿色 */
+  --journal-label-text: #074e57;     /* Journal 标签文字 */
+  --conference-label-bg: #f3ddc4;    /* Conference 标签背景：暖橙色 */
+  --conference-label-text: #8a4b20;  /* Conference 标签文字 */
+
+  /* ------------------------------------------------------------------------
+     2. 字体大小
+
+     最常调整的是下面第一项 --body-font-size。
+     rem 是相对单位：增大正文字号后，其他 rem 字号也会一起适度增大。
+     ------------------------------------------------------------------------ */
+
+  --body-font-size: 17px;             /* 全站基础字号，原来偏小，现已放大 */
+  --body-line-height: 1.68;            /* 正文行距 */
+  --nav-font-size: 0.86rem;            /* 顶部导航字号 */
+  --small-font-size: 1.02rem;          /* 作者、期刊、侧栏正文等小字 */
+  --tiny-font-size: 1.12rem;           /* 年份、编号、栏目标签等辅助字 */
+  --paper-title-size: 1.12rem;         /* 论文题目字号 */
+  --hero-title-size: clamp(3.6rem, 6vw, 5.8rem); /* 首屏大标题，自适应屏幕 */
+  --section-title-size: clamp(1.1rem, 3.3vw, 1.25rem); /* 栏目大标题 */
+
+  /* ------------------------------------------------------------------------
+     3. 可调行距与条目间距
+
+     line-height 数值越小，文字行与行之间越紧凑；
+     spacing 数值越小，不同条目之间的上下空白越少。
+     ------------------------------------------------------------------------ */
+
+  --selected-pub-line-height: 1.84;    /* 代表作内部的文字行距 */
+  --selected-pub-item-spacing: 20px;   /* 每篇代表作的上下留白 */
+  --education-line-height: 1.78;       /* 教育经历文字行距 */
+  --education-item-spacing: 24px;      /* 两段教育经历之间的距离 */
+  --honor-line-height: 1.00;           /* 荣誉奖励文字行距 */
+  --honor-item-spacing: 12px;          /* 每项荣誉的上下留白 */
+
+  /* 字体：标题使用衬线字体，正文使用无衬线字体 */
+  /* --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; */
+  --sans: Arial, "Microsoft YaHei", sans-serif;
+  --serif: Iowan Old Style, Baskerville, "Arial", "Songti SC", serif;
+  --number-font: Arial, "Microsoft YaHei", sans-serif; /* 英文数字统一使用 Arial */
+
+  /* ------------------------------------------------------------------------
+     4. 页面尺寸与留白
+     ------------------------------------------------------------------------ */
+
+  --max-width: 1180px;     /* 页面内容最大宽度；数值越大，页面越宽 */
+  --page-padding: 0 32px;  /* 桌面端左右留白 */
+  --section-space: 72px;  /* 各大栏目之间的上下间距 */
 }
