@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-07-30T21:34:37.552509+00:00",
+  "updated_at": "2026-08-07T21:02:29.182522+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -19,7 +19,7 @@
     {
       "title": "Adaptive Point Mass Filter and Its Application in Terrain Matching Navigation.",
       "citations": 5,
-      "scholar_title": "Adaptive Point Mass Filter and Its Application in Terrain Matching Navigation",
+      "scholar_title": "Adaptive point mass filter and its application in terrain matching navigation",
       "match_score": 1.0,
       "status": "matched"
     },
@@ -32,7 +32,7 @@
     },
     {
       "title": "An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System.",
-      "citations": 31,
+      "citations": 32,
       "scholar_title": "An improved particle filter based on gravity measurement feature in gravity-aided inertial navigation system",
       "match_score": 1.0,
       "status": "matched"
@@ -82,7 +82,7 @@
     {
       "title": "A Low-Order Gravity Disturbance Compensation Algorithm Based on Carrier Motion Constraints.",
       "citations": 1,
-      "scholar_title": "A Low-Order Gravity Disturbance Compensation Algorithm Based on Carrier Motion Constraints",
+      "scholar_title": "A low-order gravity disturbance compensation algorithm based on carrier motion constraints",
       "match_score": 1.0,
       "status": "matched"
     },
@@ -131,7 +131,7 @@
     {
       "title": "The Method for Selecting Adaptation Zones of Terrain Matching Based on Arctic Seabed Terrain Features.",
       "citations": 1,
-      "scholar_title": "The Method for Selecting Adaptation Zones of Terrain Matching Based on Arctic Seabed Terrain Features",
+      "scholar_title": "The method for selecting adaptation zones of terrain matching based on arctic seabed terrain features",
       "match_score": 1.0,
       "status": "matched"
     },
