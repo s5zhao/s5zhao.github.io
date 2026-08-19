@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-08-17T20:46:49.291871+00:00",
+  "updated_at": "2026-08-19T20:48:11.689058+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -46,7 +46,7 @@
     },
     {
       "title": "Global Dynamic Path-Planning Algorithm in Gravity-Aided Inertial Navigation System.",
-      "citations": 9,
+      "citations": 10,
       "scholar_title": "Global dynamic path‐planning algorithm in gravity‐aided inertial navigation system",
       "match_score": 1.0,
       "status": "matched"
