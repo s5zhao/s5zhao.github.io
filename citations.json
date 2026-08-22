@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-08-19T20:48:11.689058+00:00",
+  "updated_at": "2026-08-22T20:42:41.011260+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Gravity Matching Algorithm Based on Backtracking for Small Range Adaptation Area.",
-      "citations": 17,
+      "citations": 18,
       "scholar_title": "Gravity matching algorithm based on backtracking for small range adaptation area",
       "match_score": 1.0,
       "status": "matched"
@@ -88,14 +88,14 @@
     },
     {
       "title": "A Gravity Matching Adaptability Analysis Method based on Gravity Directional Characteristics.",
-      "citations": 0,
+      "citations": 1,
       "scholar_title": "A Gravity Matching Adaptability Analysis Method Based on Gravity Directional Characteristics",
       "match_score": 1.0,
       "status": "matched"
     },
     {
       "title": "A Gravity-Aided Navigation Matching Algorithm Based on Triangulation.",
-      "citations": 5,
+      "citations": 6,
       "scholar_title": "A gravity-aided navigation matching algorithm based on triangulation",
       "match_score": 1.0,
       "status": "matched"
