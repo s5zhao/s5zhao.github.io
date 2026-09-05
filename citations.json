@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-08-29T02:50:14.144608+00:00",
+  "updated_at": "2026-09-05T22:04:52.944311+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Adaptive Point Mass Filter and Its Application in Terrain Matching Navigation.",
-      "citations": 5,
+      "citations": 6,
       "scholar_title": "Adaptive point mass filter and its application in terrain matching navigation",
       "match_score": 1.0,
       "status": "matched"
@@ -39,7 +39,7 @@
     },
     {
       "title": "Gravity Matching Algorithm Based on Correlation Filter.",
-      "citations": 11,
+      "citations": 12,
       "scholar_title": "Gravity matching algorithm based on correlation filter",
       "match_score": 1.0,
       "status": "matched"
@@ -95,7 +95,7 @@
     },
     {
       "title": "A Gravity-Aided Navigation Matching Algorithm Based on Triangulation.",
-      "citations": 6,
+      "citations": 9,
       "scholar_title": "A gravity-aided navigation matching algorithm based on triangulation",
       "match_score": 1.0,
       "status": "matched"
