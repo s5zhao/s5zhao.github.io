@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-09-09T22:36:14.559136+00:00",
+  "updated_at": "2026-09-13T22:27:56.653443+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -32,7 +32,7 @@
     },
     {
       "title": "An Improved Particle Filter Based on Gravity Measurement Feature in Gravity-Aided Inertial Navigation System.",
-      "citations": 32,
+      "citations": 33,
       "scholar_title": "An improved particle filter based on gravity measurement feature in gravity-aided inertial navigation system",
       "match_score": 1.0,
       "status": "matched"
@@ -95,7 +95,7 @@
     },
     {
       "title": "A Gravity-Aided Navigation Matching Algorithm Based on Triangulation.",
-      "citations": 9,
+      "citations": 10,
       "scholar_title": "A gravity-aided navigation matching algorithm based on triangulation",
       "match_score": 1.0,
       "status": "matched"
