@@ -1,6 +1,6 @@
 {
   "profile_url": "https://scholar.google.com/citations?user=amGtFUIAAAAJ&hl=en",
-  "updated_at": "2026-10-01T23:56:42.862717+00:00",
+  "updated_at": "2026-10-10T00:04:24.780866+00:00",
   "papers": [
     {
       "title": "An Adaptability Analysis Method Based on the Quantification of Terrain Matching Performance.",
@@ -116,7 +116,7 @@
     },
     {
       "title": "Bathymetric SLAM Approach Using Multibeam Sonar Toward Polar Region.",
-      "citations": 0,
+      "citations": 1,
       "scholar_title": "Bathymetric SLAM Approach Using Multibeam Sonar Toward Polar Region",
       "match_score": 1.0,
       "status": "matched"
